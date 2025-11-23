@@ -157,7 +157,7 @@ const App: React.FC = () => {
           <div className="flex items-center gap-2">
             <div className="w-2 h-8 bg-gradient-to-b from-cyber-primary to-cyber-secondary rounded-sm"></div>
             <div className="font-display font-bold text-xl text-white tracking-widest uppercase">
-              Hoops<span className="text-cyber-primary">Oracle</span>
+              Hoops<span className="text-cyber-primary">Harbinger</span>
             </div>
           </div>
           <div className="flex items-center gap-4">
@@ -261,7 +261,17 @@ const App: React.FC = () => {
              <div className="w-1 h-1 bg-cyber-secondary rounded-full animate-pulse delay-75"></div>
              <div className="w-1 h-1 bg-cyber-primary rounded-full animate-pulse delay-150"></div>
           </div>
-          <p className="text-[9px] text-zinc-600 uppercase tracking-[0.3em] font-display">{t.footerInfo}</p>
+          <p className="text-[9px] text-zinc-600 uppercase tracking-[0.3em] font-display mb-4">{t.footerInfo}</p>
+          
+          <a 
+            href="https://x.com/louischeng760" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-zinc-500 hover:text-white transition-colors text-[10px] uppercase tracking-widest font-display"
+          >
+            <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg>
+            @louischeng760
+          </a>
         </footer>
 
       </main>
