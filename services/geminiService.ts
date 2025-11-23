@@ -33,11 +33,11 @@ const predictionSchema: Schema = {
     },
     reasoning: {
       type: Type.STRING,
-      description: "A concise paragraph explaining the prediction based on stats and market odds.",
+      description: "A concise paragraph explaining the prediction. You MUST explicitly mention 'Momentum' or 'Recent Form' in your reasoning.",
     },
     keyMatchupFactor: {
       type: Type.STRING,
-      description: "One short sentence identifying the key factor (e.g., 'Home court advantage', 'Injury impact').",
+      description: "One short sentence identifying the key factor (e.g., 'High Rolling Std Dev', 'Recent Form Surge').",
     },
   },
   required: ["winnerId", "confidence", "reasoning", "keyMatchupFactor"],
@@ -45,7 +45,6 @@ const predictionSchema: Schema = {
 
 export const analyzeGame = async (game: Game, lang: Language): Promise<AiPredictionResponse> => {
   if (!apiKey) {
-    // If no API key, return a mock failure response instead of throwing to keep UI alive
     return {
       winnerId: game.marketData.homeWinProb > game.marketData.awayWinProb ? game.homeTeam.id : game.awayTeam.id,
       confidence: 50,
@@ -60,36 +59,36 @@ export const analyzeGame = async (game: Game, lang: Language): Promise<AiPredict
   const teamNameAway = lang === 'zh' ? game.awayTeam.nameZh : game.awayTeam.name;
 
   const prompt = `
-    Act as a professional NBA sports analyst.
-    Analyze the following matchup and predict the winner.
+    Act as an elite NBA Data Scientist and Sports Bettor.
+    Analyze the following matchup to predict the winner.
     
-    IMPORTANT: Provide the 'reasoning' and 'keyMatchupFactor' in ${lang === 'zh' ? 'Traditional Chinese (繁體中文)' : 'English'}.
+    IMPORTANT INSTRUCTION ON METHODOLOGY:
+    Do not rely solely on season-long averages. You MUST apply a "Rolling Window" logic similar to pandas dataframe rolling statistics.
+    1. PRIORITIZE Recent Form (Last 10 Games) over Season Record. This is your 'rolling_5_pts' and 'rolling_5_win_rate' equivalent.
+    2. Consider Stability: If a team is volatile (high standard deviation in recent performance), lower the confidence.
+    3. MARKET SIGNAL: If Polymarket probability is high (>60%), respect the 'Smart Money'.
     
-    Prediction Data Source: ${game.oddsSource === 'POLYMARKET' ? 'Polymarket (Prediction Market)' : 'Sportsbook/Stats'}
+    Output Language: ${lang === 'zh' ? 'Traditional Chinese (繁體中文)' : 'English'}.
 
     Home Team: ${teamNameHome} (${game.homeTeam.id})
-    - Record: ${game.homeTeam.wins}-${game.homeTeam.losses}
+    - Season Record: ${game.homeTeam.wins}-${game.homeTeam.losses}
+    - Recent Form (Last 10): ${game.homeTeam.last10} (Win Rate: ${(game.homeTeam.recentForm * 100).toFixed(0)}%)
     - PPG: ${game.homeTeam.ppg}
-    - Opp PPG: ${game.homeTeam.oppg}
-    - Last 10: ${game.homeTeam.last10}
-    - Score: ${game.homeScore} (If live/final)
+    - Score (If Live): ${game.homeScore}
 
     Away Team: ${teamNameAway} (${game.awayTeam.id})
-    - Record: ${game.awayTeam.wins}-${game.awayTeam.losses}
+    - Season Record: ${game.awayTeam.wins}-${game.awayTeam.losses}
+    - Recent Form (Last 10): ${game.awayTeam.last10} (Win Rate: ${(game.awayTeam.recentForm * 100).toFixed(0)}%)
     - PPG: ${game.awayTeam.ppg}
-    - Opp PPG: ${game.awayTeam.oppg}
-    - Last 10: ${game.awayTeam.last10}
-    - Score: ${game.awayScore} (If live/final)
+    - Score (If Live): ${game.awayScore}
 
-    Status: ${game.status}
-    Polymarket (Betting Market) Sentiment:
-    - ${teamNameHome} Win Probability: ${(game.marketData.homeWinProb * 100).toFixed(1)}%
-    - ${teamNameAway} Win Probability: ${(game.marketData.awayWinProb * 100).toFixed(1)}%
+    Polymarket / Odds Data:
+    - Source: ${game.oddsSource}
+    - Home Win Prob: ${(game.marketData.homeWinProb * 100).toFixed(1)}%
+    - Away Win Prob: ${(game.marketData.awayWinProb * 100).toFixed(1)}%
 
     Task:
-    1. Compare the historical stats.
-    2. Consider the market sentiment (give high weight to Polymarket probabilities if available).
-    3. Determine a winner.
+    Predict the winner based on the "Momentum" (Recent Form) vs "Market Sentiment" (Odds).
   `;
 
   try {
@@ -99,7 +98,7 @@ export const analyzeGame = async (game: Game, lang: Language): Promise<AiPredict
       config: {
         responseMimeType: "application/json",
         responseSchema: predictionSchema,
-        temperature: 0.4, 
+        temperature: 0.3, // Lower temperature for more analytical/conservative answers
       },
     });
 
@@ -116,18 +115,17 @@ export const analyzeGame = async (game: Game, lang: Language): Promise<AiPredict
     
     let errorMessage = lang === 'zh' ? "AI 分析暫時無法使用。" : "AI Analysis unavailable.";
     
-    if (error.message && (error.message.includes('429') || error.message.includes('Quota') || error.message.includes('exhausted'))) {
+    if (error.message && (error.message.includes('429') || error.message.includes('Quota'))) {
        errorMessage = lang === 'zh' 
-        ? "⚠️ 免費 API 額度已達上限。請稍後再試（約 1 分鐘）。" 
-        : "⚠️ Free API quota exceeded. Please try again in a minute.";
+        ? "⚠️ 免費 API 額度已達上限。請稍後再試。" 
+        : "⚠️ Free API quota exceeded. Please try again later.";
     }
 
-    // Fallback in case of API error
     return {
       winnerId: game.marketData.homeWinProb > game.marketData.awayWinProb ? game.homeTeam.id : game.awayTeam.id,
       confidence: 50,
       reasoning: errorMessage,
-      keyMatchupFactor: lang === 'zh' ? "API 限制" : "API Limit"
+      keyMatchupFactor: "API Limit"
     };
   }
 };

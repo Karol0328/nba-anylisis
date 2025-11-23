@@ -1,3 +1,4 @@
+
 import { Game, GameStatus, TeamStats } from '../types';
 import { TEAMS } from '../constants';
 import { fetchPolymarketEvents, findPolymarketMatch } from './polymarketService';
@@ -16,6 +17,19 @@ const spreadToProbability = (spread: number): number => {
   const impact = Math.abs(spread) * 0.033;
   let prob = spread < 0 ? 0.5 + impact : 0.5 - impact;
   return Math.max(0.1, Math.min(0.99, prob));
+};
+
+// Helper to convert "8-2" string to 0.8 number
+const parseLast10 = (record: string): number => {
+    if (!record || !record.includes('-')) return 0.5;
+    try {
+        const [wins, losses] = record.split('-').map(Number);
+        const total = wins + losses;
+        if (total === 0) return 0.5;
+        return wins / total;
+    } catch (e) {
+        return 0.5;
+    }
 };
 
 export const fetchNbaGames = async (date: Date): Promise<Game[]> => {
@@ -43,31 +57,39 @@ export const fetchNbaGames = async (date: Date): Promise<Game[]> => {
       const homeId = homeComp.team.abbreviation;
       const awayId = awayComp.team.abbreviation;
 
-      const homeStats: TeamStats = TEAMS[homeId as keyof typeof TEAMS] || {
-        id: homeId,
-        name: homeComp.team.name,
-        nameZh: homeComp.team.name, 
-        wins: parseInt(homeComp.records?.[0]?.summary?.split('-')[0] || '0'),
-        losses: parseInt(homeComp.records?.[0]?.summary?.split('-')[1] || '0'),
-        ppg: 110,
-        oppg: 110,
-        last10: "N/A",
-        logo: homeComp.team.logo || ""
-      };
+      const staticHome = TEAMS[homeId as keyof typeof TEAMS];
+      const homeStats: TeamStats = staticHome 
+        ? { ...staticHome, recentForm: parseLast10(staticHome.last10) } 
+        : {
+          id: homeId,
+          name: homeComp.team.name,
+          nameZh: homeComp.team.name, 
+          wins: parseInt(homeComp.records?.[0]?.summary?.split('-')[0] || '0'),
+          losses: parseInt(homeComp.records?.[0]?.summary?.split('-')[1] || '0'),
+          ppg: 110,
+          oppg: 110,
+          last10: "5-5",
+          recentForm: 0.5,
+          logo: homeComp.team.logo || ""
+        };
 
-      const awayStats: TeamStats = TEAMS[awayId as keyof typeof TEAMS] || {
-        id: awayId,
-        name: awayComp.team.name,
-        nameZh: awayComp.team.name,
-        wins: parseInt(awayComp.records?.[0]?.summary?.split('-')[0] || '0'),
-        losses: parseInt(awayComp.records?.[0]?.summary?.split('-')[1] || '0'),
-        ppg: 110,
-        oppg: 110,
-        last10: "N/A",
-        logo: awayComp.team.logo || ""
-      };
+      const staticAway = TEAMS[awayId as keyof typeof TEAMS];
+      const awayStats: TeamStats = staticAway
+        ? { ...staticAway, recentForm: parseLast10(staticAway.last10) }
+        : {
+          id: awayId,
+          name: awayComp.team.name,
+          nameZh: awayComp.team.name,
+          wins: parseInt(awayComp.records?.[0]?.summary?.split('-')[0] || '0'),
+          losses: parseInt(awayComp.records?.[0]?.summary?.split('-')[1] || '0'),
+          ppg: 110,
+          oppg: 110,
+          last10: "5-5",
+          recentForm: 0.5,
+          logo: awayComp.team.logo || ""
+        };
 
-      // Always update Wins/Losses from live API if available (overriding static constants)
+      // Always update Wins/Losses from live API if available
       if (homeComp.records?.[0]?.summary) {
         const parts = homeComp.records[0].summary.split('-');
         homeStats.wins = parseInt(parts[0]);
@@ -78,6 +100,12 @@ export const fetchNbaGames = async (date: Date): Promise<Game[]> => {
          awayStats.wins = parseInt(parts[0]);
          awayStats.losses = parseInt(parts[1]);
       }
+      
+      // Calculate Recent Form (Rolling logic simulation)
+      // Note: ESPN API doesn't always give L10 in this endpoint, so we default to static TEAMS if missing
+      // But we parse it into a number for the AI.
+      homeStats.recentForm = parseLast10(homeStats.last10);
+      awayStats.recentForm = parseLast10(awayStats.last10);
 
       let status = GameStatus.SCHEDULED;
       const state = event.status.type.state; 
@@ -125,7 +153,11 @@ export const fetchNbaGames = async (date: Date): Promise<Game[]> => {
            const totalGamesAway = awayStats.wins + awayStats.losses || 1;
            const awayWinRate = awayStats.wins / totalGamesAway;
            
-           homeWinProb = 0.5 + (homeWinRate - awayWinRate) * 0.5 + 0.05;
+           // Apply a basic weight for Recent Form (Momentum) here too for the visual bar
+           const homePower = (homeWinRate * 0.7) + (homeStats.recentForm * 0.3);
+           const awayPower = (awayWinRate * 0.7) + (awayStats.recentForm * 0.3);
+
+           homeWinProb = 0.5 + (homePower - awayPower) * 0.5 + 0.05;
            homeWinProb = Math.max(0.25, Math.min(0.75, homeWinProb));
            volumeUsd = 0;
         }

@@ -1,3 +1,4 @@
+
 export enum GameStatus {
   SCHEDULED = 'SCHEDULED',
   LIVE = 'LIVE',
@@ -17,6 +18,7 @@ export interface TeamStats {
   ppg: number; 
   oppg: number;
   last10: string;
+  recentForm: number; // New field: Numeric value of last 10 (e.g., 0.8 for 8-2) to simulate rolling avg
   logo: string;
 }
 
