@@ -59,26 +59,26 @@ export const analyzeGame = async (game: Game, lang: Language): Promise<AiPredict
   const teamNameAway = lang === 'zh' ? game.awayTeam.nameZh : game.awayTeam.name;
 
   const prompt = `
-    Act as an elite NBA Data Scientist and Sports Bettor.
+    Act as an elite NBA Data Scientist and Sports Bettor using an XGBoost Prediction Engine.
     Analyze the following matchup to predict the winner.
     
-    IMPORTANT INSTRUCTION ON METHODOLOGY:
+    IMPORTANT INSTRUCTION ON METHODOLOGY (Based on Python XGBoost Engine Logic):
     Do not rely solely on season-long averages. You MUST apply a "Rolling Window" logic similar to pandas dataframe rolling statistics.
-    1. PRIORITIZE Recent Form (Last 10 Games) over Season Record. This is your 'rolling_5_pts' and 'rolling_5_win_rate' equivalent.
-    2. Consider Stability: If a team is volatile (high standard deviation in recent performance), lower the confidence.
+    1. MOMENTUM SCORE: We have calculated a 'Recent Form' score (0.0 - 1.0) based on the last 10 games. This is your primary 'rolling_win_rate' feature.
+    2. STABILITY: If a team's Recent Form is significantly different from their Season Record, assume high volatility (Standard Deviation).
     3. MARKET SIGNAL: If Polymarket probability is high (>60%), respect the 'Smart Money'.
     
     Output Language: ${lang === 'zh' ? 'Traditional Chinese (繁體中文)' : 'English'}.
 
     Home Team: ${teamNameHome} (${game.homeTeam.id})
     - Season Record: ${game.homeTeam.wins}-${game.homeTeam.losses}
-    - Recent Form (Last 10): ${game.homeTeam.last10} (Win Rate: ${(game.homeTeam.recentForm * 100).toFixed(0)}%)
+    - Momentum Score (Rolling Win Rate): ${(game.homeTeam.recentForm * 100).toFixed(0)}% (Based on Last 10: ${game.homeTeam.last10})
     - PPG: ${game.homeTeam.ppg}
     - Score (If Live): ${game.homeScore}
 
     Away Team: ${teamNameAway} (${game.awayTeam.id})
     - Season Record: ${game.awayTeam.wins}-${game.awayTeam.losses}
-    - Recent Form (Last 10): ${game.awayTeam.last10} (Win Rate: ${(game.awayTeam.recentForm * 100).toFixed(0)}%)
+    - Momentum Score (Rolling Win Rate): ${(game.awayTeam.recentForm * 100).toFixed(0)}% (Based on Last 10: ${game.awayTeam.last10})
     - PPG: ${game.awayTeam.ppg}
     - Score (If Live): ${game.awayScore}
 

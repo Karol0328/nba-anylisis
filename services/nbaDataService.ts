@@ -19,13 +19,21 @@ const spreadToProbability = (spread: number): number => {
   return Math.max(0.1, Math.min(0.99, prob));
 };
 
-// Helper to convert "8-2" string to 0.8 number
-const parseLast10 = (record: string): number => {
+/**
+ * Calculates a "Momentum Score" (0.0 to 1.0) based on Recent Form.
+ * This mirrors the logic in `scripts/nba_prediction_engine.py`:
+ * df['rolling_win_rate'] = df.groupby('team_id')['is_win'].transform(lambda x: x.shift(1).rolling(window=5).mean())
+ * 
+ * Since we only have the "Last 10" string from the live API (e.g., "8-2"),
+ * we use this as a proxy for the rolling window average.
+ */
+const calculateMomentum = (record: string): number => {
     if (!record || !record.includes('-')) return 0.5;
     try {
         const [wins, losses] = record.split('-').map(Number);
         const total = wins + losses;
         if (total === 0) return 0.5;
+        // e.g., 8-2 record = 0.8 momentum
         return wins / total;
     } catch (e) {
         return 0.5;
@@ -59,7 +67,7 @@ export const fetchNbaGames = async (date: Date): Promise<Game[]> => {
 
       const staticHome = TEAMS[homeId as keyof typeof TEAMS];
       const homeStats: TeamStats = staticHome 
-        ? { ...staticHome, recentForm: parseLast10(staticHome.last10) } 
+        ? { ...staticHome, recentForm: calculateMomentum(staticHome.last10) } 
         : {
           id: homeId,
           name: homeComp.team.name,
@@ -75,7 +83,7 @@ export const fetchNbaGames = async (date: Date): Promise<Game[]> => {
 
       const staticAway = TEAMS[awayId as keyof typeof TEAMS];
       const awayStats: TeamStats = staticAway
-        ? { ...staticAway, recentForm: parseLast10(staticAway.last10) }
+        ? { ...staticAway, recentForm: calculateMomentum(staticAway.last10) }
         : {
           id: awayId,
           name: awayComp.team.name,
@@ -101,11 +109,10 @@ export const fetchNbaGames = async (date: Date): Promise<Game[]> => {
          awayStats.losses = parseInt(parts[1]);
       }
       
-      // Calculate Recent Form (Rolling logic simulation)
+      // Calculate Recent Form using our helper
       // Note: ESPN API doesn't always give L10 in this endpoint, so we default to static TEAMS if missing
-      // But we parse it into a number for the AI.
-      homeStats.recentForm = parseLast10(homeStats.last10);
-      awayStats.recentForm = parseLast10(awayStats.last10);
+      homeStats.recentForm = calculateMomentum(homeStats.last10);
+      awayStats.recentForm = calculateMomentum(awayStats.last10);
 
       let status = GameStatus.SCHEDULED;
       const state = event.status.type.state; 
