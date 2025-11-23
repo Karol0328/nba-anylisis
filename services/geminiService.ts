@@ -2,7 +2,21 @@
 import { GoogleGenAI, Type, Schema } from "@google/genai";
 import { Game, AiPredictionResponse, Language } from '../types';
 
-const apiKey = process.env.API_KEY || '';
+// Safely access process.env to prevent "process is not defined" crash in browsers
+const getApiKey = () => {
+  try {
+    // In some build environments (Vite), process might not be defined on the client
+    // We check availability to avoid a white screen crash
+    if (typeof process !== 'undefined' && process.env) {
+      return process.env.API_KEY || '';
+    }
+  } catch (e) {
+    // Ignore error
+  }
+  return '';
+};
+
+const apiKey = getApiKey();
 const ai = new GoogleGenAI({ apiKey });
 
 // Schema for structured JSON output
@@ -31,7 +45,15 @@ const predictionSchema: Schema = {
 
 export const analyzeGame = async (game: Game, lang: Language): Promise<AiPredictionResponse> => {
   if (!apiKey) {
-    throw new Error("API Key not found in environment variables.");
+    // If no API key, return a mock failure response instead of throwing to keep UI alive
+    return {
+      winnerId: game.marketData.homeWinProb > game.marketData.awayWinProb ? game.homeTeam.id : game.awayTeam.id,
+      confidence: 50,
+      reasoning: lang === 'zh' 
+        ? "⚠️ 錯誤：未設定 API 金鑰。請在 Vercel 設定環境變數 API_KEY。" 
+        : "⚠️ Error: API Key not configured. Please set API_KEY in Vercel environment variables.",
+      keyMatchupFactor: "Missing API Key"
+    };
   }
 
   const teamNameHome = lang === 'zh' ? game.homeTeam.nameZh : game.homeTeam.name;
@@ -42,6 +64,8 @@ export const analyzeGame = async (game: Game, lang: Language): Promise<AiPredict
     Analyze the following matchup and predict the winner.
     
     IMPORTANT: Provide the 'reasoning' and 'keyMatchupFactor' in ${lang === 'zh' ? 'Traditional Chinese (繁體中文)' : 'English'}.
+    
+    Prediction Data Source: ${game.oddsSource === 'POLYMARKET' ? 'Polymarket (Prediction Market)' : 'Sportsbook/Stats'}
 
     Home Team: ${teamNameHome} (${game.homeTeam.id})
     - Record: ${game.homeTeam.wins}-${game.homeTeam.losses}
@@ -64,7 +88,7 @@ export const analyzeGame = async (game: Game, lang: Language): Promise<AiPredict
 
     Task:
     1. Compare the historical stats.
-    2. Consider the market sentiment.
+    2. Consider the market sentiment (give high weight to Polymarket probabilities if available).
     3. Determine a winner.
   `;
 

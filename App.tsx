@@ -17,6 +17,7 @@ const App: React.FC = () => {
   const [lang, setLang] = useState<Language>('zh'); 
   const [selectedDate, setSelectedDate] = useState<Date>(new Date());
   const [isLoadingGames, setIsLoadingGames] = useState(false);
+  const [fetchError, setFetchError] = useState<string | null>(null);
 
   const t = TRANSLATIONS[lang];
 
@@ -24,9 +25,17 @@ const App: React.FC = () => {
   useEffect(() => {
     const loadGames = async () => {
       setIsLoadingGames(true);
-      const fetchedGames = await fetchNbaGames(selectedDate);
-      setGames(fetchedGames);
-      setIsLoadingGames(false);
+      setFetchError(null);
+      try {
+        const fetchedGames = await fetchNbaGames(selectedDate);
+        setGames(fetchedGames);
+      } catch (err) {
+        console.error("Critical error fetching games:", err);
+        setFetchError("Failed to load game data.");
+        setGames([]);
+      } finally {
+        setIsLoadingGames(false);
+      }
     };
     loadGames();
     
@@ -211,6 +220,17 @@ const App: React.FC = () => {
                 <div className="inline-block w-8 h-8 border-2 border-cyber-primary border-t-transparent rounded-full animate-spin mb-4"></div>
                 <p className="text-zinc-500 text-xs font-mono uppercase tracking-widest">{lang === 'zh' ? "連線 NBA 數據中心..." : "UPLINKING TO NBA DATA..."}</p>
              </div>
+          ) : fetchError ? (
+            <div className="py-24 text-center border border-dashed border-red-900/50 rounded-xl bg-red-900/10">
+                <p className="text-red-400 text-xs font-mono uppercase tracking-widest mb-2">⚠ SYSTEM ERROR</p>
+                <p className="text-zinc-500 text-[10px]">{fetchError}</p>
+                 <button 
+                  onClick={() => window.location.reload()} 
+                  className="mt-4 px-4 py-2 bg-red-900/20 text-red-400 hover:bg-red-900/40 rounded text-[10px] font-bold uppercase tracking-widest"
+                >
+                  {lang === 'zh' ? "重試" : "RETRY"}
+                </button>
+            </div>
           ) : games.length > 0 ? (
             games.map(game => (
               <GameCard 
