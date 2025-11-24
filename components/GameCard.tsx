@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Game, GameStatus, Language } from '../types';
 import { TRANSLATIONS } from '../constants';
@@ -149,9 +150,17 @@ const GameCard: React.FC<GameCardProps> = ({ game, onAnalyze, onSimulateResult, 
         {/* Polymarket Bar - Cyber Style */}
         <div className="mb-5 relative group/bar">
           <div className="flex justify-between text-[9px] text-zinc-500 mb-1.5 uppercase tracking-widest font-display font-semibold">
-              <span className={game.oddsSource === 'POLYMARKET' ? 'text-blue-400' : 'text-zinc-500'}>
-                {game.oddsSource === 'POLYMARKET' ? t.marketOdds : 'WIN PROBABILITY'}
-              </span>
+              <div className="flex items-center gap-1">
+                <span className={game.oddsSource === 'POLYMARKET' ? 'text-blue-400' : 'text-zinc-500'}>
+                  {game.oddsSource === 'POLYMARKET' ? t.marketOdds : 'WIN PROBABILITY'}
+                </span>
+                {game.isClosingOdds && (
+                   <span className="text-[8px] bg-zinc-800 text-zinc-400 px-1 rounded ml-1 border border-zinc-700">CLOSING</span>
+                )}
+                {!game.isClosingOdds && game.status === GameStatus.LIVE && (
+                   <span className="text-[8px] bg-red-900/40 text-red-400 px-1 rounded ml-1 border border-red-500/20 animate-pulse">LIVE</span>
+                )}
+              </div>
               {game.marketData.volumeUsd > 0 && (
                 <span className="text-zinc-600 font-mono">${(game.marketData.volumeUsd / 1000).toFixed(0)}K VOL</span>
               )}

@@ -43,6 +43,7 @@ export interface Game {
   
   marketData: PolymarketData;
   oddsSource: OddsSource; // Track where the data came from
+  isClosingOdds?: boolean; // If true, data is frozen from pre-game
 
   predictedWinnerId?: string | null; 
   predictionConfidence?: number;
