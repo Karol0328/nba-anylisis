@@ -1,11 +1,17 @@
-const fs = require('fs');
-const path = require('path');
-const axios = require('axios');
+import fs from 'fs';
+import path from 'path';
+import axios from 'axios';
+import { fileURLToPath } from 'url';
+
+// === 修正部分開始：為了讓 ES Modules 支援 __dirname ===
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+// === 修正部分結束 ===
 
 // Resolve paths relative to the project root
 // Assuming this script is run from project root or scripts folder
 // We construct path to public/nba_odds.json
-const PUBLIC_DIR = path.join(__dirname, '../public'); // Adjust if needed depending on where you run it
+const PUBLIC_DIR = path.join(__dirname, '../public'); 
 const DATA_FILE = path.join(PUBLIC_DIR, 'nba_odds.json');
 
 // API Config
@@ -79,17 +85,9 @@ async function main() {
       }
     }
 
-    // Optional: If you want to keep finished games that are no longer in the API response
-    // (The Odds API usually removes games shortly after they finish)
-    // You can iterate existingData and add them if they aren't in finalGames yet.
-    // For this implementation, we will sync with API list to keep file size managed, 
-    // but the [LOCKED] logic above handles the games currently returned by API that have started.
-
     // 4. Save to file
     // Ensure directory exists
     if (!fs.existsSync(PUBLIC_DIR)) {
-      // In some environments 'public' might not exist if empty, create it
-      // Note: In standard Vite/React apps, public usually exists.
       try {
         fs.mkdirSync(PUBLIC_DIR, { recursive: true });
       } catch (e) {
