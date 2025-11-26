@@ -4,6 +4,7 @@ import { LOCK_WINDOW_MINUTES, TRANSLATIONS } from './constants';
 import { Game, GameStatus, AiPredictionResponse, Language } from './types';
 import GameCard from './components/GameCard';
 import AnalysisModal from './components/AnalysisModal';
+import MarketOddsTable from './components/MarketOddsTable';
 import { analyzeGame } from './services/geminiService';
 import { fetchNbaGames } from './services/nbaDataService';
 
@@ -253,6 +254,9 @@ const App: React.FC = () => {
             </div>
           )}
         </section>
+
+        {/* Odds Snapshot Table */}
+        <MarketOddsTable />
 
         {/* Cyber Footer */}
         <footer className="mt-16 text-center border-t border-white/5 pt-8 pb-8">
