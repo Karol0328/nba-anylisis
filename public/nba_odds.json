@@ -1,373 +1,44 @@
 [
   {
-    "id": "1facc6e030396d99f68b42ceacf86ada",
+    "id": "666b9bc21f9a5d645dea85f16cfbc5b0",
     "sport_key": "basketball_nba",
     "sport_title": "NBA",
-    "commence_time": "2025-12-20T22:10:00Z",
-    "home_team": "Denver Nuggets",
-    "away_team": "Houston Rockets",
+    "commence_time": "2025-12-21T00:10:00Z",
+    "home_team": "New Orleans Pelicans",
+    "away_team": "Indiana Pacers",
     "bookmakers": [
       {
         "key": "fanduel",
         "title": "FanDuel",
-        "last_update": "2025-12-20T20:23:27Z",
+        "last_update": "2025-12-20T22:20:04Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T20:23:27Z",
+            "last_update": "2025-12-20T22:20:04Z",
             "outcomes": [
               {
-                "name": "Denver Nuggets",
-                "price": 2
+                "name": "Indiana Pacers",
+                "price": 2.18
               },
               {
-                "name": "Houston Rockets",
-                "price": 1.85
+                "name": "New Orleans Pelicans",
+                "price": 1.72
               }
             ]
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T20:23:27Z",
+            "last_update": "2025-12-20T22:20:04Z",
             "outcomes": [
               {
-                "name": "Denver Nuggets",
-                "price": 1.91,
-                "point": 1
-              },
-              {
-                "name": "Houston Rockets",
-                "price": 1.91,
-                "point": -1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betonlineag",
-        "title": "BetOnline.ag",
-        "last_update": "2025-12-20T20:23:02Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2025-12-20T20:23:02Z",
-            "outcomes": [
-              {
-                "name": "Denver Nuggets",
-                "price": 2
-              },
-              {
-                "name": "Houston Rockets",
-                "price": 1.83
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2025-12-20T20:23:02Z",
-            "outcomes": [
-              {
-                "name": "Denver Nuggets",
-                "price": 1.95,
-                "point": 1
-              },
-              {
-                "name": "Houston Rockets",
-                "price": 1.87,
-                "point": -1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "lowvig",
-        "title": "LowVig.ag",
-        "last_update": "2025-12-20T20:23:13Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2025-12-20T20:23:13Z",
-            "outcomes": [
-              {
-                "name": "Denver Nuggets",
-                "price": 2.02
-              },
-              {
-                "name": "Houston Rockets",
-                "price": 1.85
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2025-12-20T20:23:13Z",
-            "outcomes": [
-              {
-                "name": "Denver Nuggets",
-                "price": 1.99,
-                "point": 1
-              },
-              {
-                "name": "Houston Rockets",
-                "price": 1.9,
-                "point": -1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "mybookieag",
-        "title": "MyBookie.ag",
-        "last_update": "2025-12-20T20:22:52Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2025-12-20T20:22:52Z",
-            "outcomes": [
-              {
-                "name": "Denver Nuggets",
-                "price": 1.94
-              },
-              {
-                "name": "Houston Rockets",
-                "price": 1.87
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2025-12-20T20:22:52Z",
-            "outcomes": [
-              {
-                "name": "Denver Nuggets",
-                "price": 1.91,
-                "point": 1
-              },
-              {
-                "name": "Houston Rockets",
-                "price": 1.91,
-                "point": -1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "draftkings",
-        "title": "DraftKings",
-        "last_update": "2025-12-20T20:23:26Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2025-12-20T20:23:26Z",
-            "outcomes": [
-              {
-                "name": "Denver Nuggets",
-                "price": 1.89
-              },
-              {
-                "name": "Houston Rockets",
-                "price": 1.93
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2025-12-20T20:23:26Z",
-            "outcomes": [
-              {
-                "name": "Denver Nuggets",
-                "price": 1.98,
-                "point": -1.5
-              },
-              {
-                "name": "Houston Rockets",
-                "price": 1.85,
-                "point": 1.5
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betus",
-        "title": "BetUS",
-        "last_update": "2025-12-20T20:23:27Z",
-        "markets": [
-          {
-            "key": "spreads",
-            "last_update": "2025-12-20T20:23:27Z",
-            "outcomes": [
-              {
-                "name": "Denver Nuggets",
-                "price": 1.91,
-                "point": 0
-              },
-              {
-                "name": "Houston Rockets",
-                "price": 1.91,
-                "point": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "bovada",
-        "title": "Bovada",
-        "last_update": "2025-12-20T20:22:11Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2025-12-20T20:22:11Z",
-            "outcomes": [
-              {
-                "name": "Denver Nuggets",
-                "price": 1.95
-              },
-              {
-                "name": "Houston Rockets",
-                "price": 1.87
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2025-12-20T20:22:11Z",
-            "outcomes": [
-              {
-                "name": "Denver Nuggets",
-                "price": 1.91,
-                "point": 1
-              },
-              {
-                "name": "Houston Rockets",
-                "price": 1.91,
-                "point": -1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betmgm",
-        "title": "BetMGM",
-        "last_update": "2025-12-20T20:23:00Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2025-12-20T20:23:00Z",
-            "outcomes": [
-              {
-                "name": "Denver Nuggets",
-                "price": 1.91
-              },
-              {
-                "name": "Houston Rockets",
-                "price": 1.91
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2025-12-20T20:23:00Z",
-            "outcomes": [
-              {
-                "name": "Denver Nuggets",
-                "price": 1.98,
-                "point": -1.5
-              },
-              {
-                "name": "Houston Rockets",
-                "price": 1.85,
-                "point": 1.5
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betrivers",
-        "title": "BetRivers",
-        "last_update": "2025-12-20T20:23:15Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2025-12-20T20:23:14Z",
-            "outcomes": [
-              {
-                "name": "Denver Nuggets",
-                "price": 1.93
-              },
-              {
-                "name": "Houston Rockets",
-                "price": 1.88
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2025-12-20T20:23:14Z",
-            "outcomes": [
-              {
-                "name": "Denver Nuggets",
-                "price": 1.87,
-                "point": 1
-              },
-              {
-                "name": "Houston Rockets",
-                "price": 1.91,
-                "point": -1
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "843dd6e8046c96f00161330ba41f9351",
-    "sport_key": "basketball_nba",
-    "sport_title": "NBA",
-    "commence_time": "2025-12-21T00:00:00Z",
-    "home_team": "Toronto Raptors",
-    "away_team": "Boston Celtics",
-    "bookmakers": [
-      {
-        "key": "draftkings",
-        "title": "DraftKings",
-        "last_update": "2025-12-20T22:19:38Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2025-12-20T22:19:38Z",
-            "outcomes": [
-              {
-                "name": "Boston Celtics",
-                "price": 2.02
-              },
-              {
-                "name": "Toronto Raptors",
-                "price": 1.82
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2025-12-20T22:19:38Z",
-            "outcomes": [
-              {
-                "name": "Boston Celtics",
-                "price": 1.93,
-                "point": 1.5
-              },
-              {
-                "name": "Toronto Raptors",
+                "name": "Indiana Pacers",
                 "price": 1.89,
-                "point": -1.5
+                "point": 2.5
+              },
+              {
+                "name": "New Orleans Pelicans",
+                "price": 1.93,
+                "point": -2.5
               }
             ]
           }
@@ -383,12 +54,12 @@
             "last_update": "2025-12-20T22:19:52Z",
             "outcomes": [
               {
-                "name": "Boston Celtics",
-                "price": 1.99
+                "name": "Indiana Pacers",
+                "price": 2.22
               },
               {
-                "name": "Toronto Raptors",
-                "price": 1.84
+                "name": "New Orleans Pelicans",
+                "price": 1.7
               }
             ]
           },
@@ -397,13 +68,124 @@
             "last_update": "2025-12-20T22:19:52Z",
             "outcomes": [
               {
-                "name": "Boston Celtics",
+                "name": "Indiana Pacers",
+                "price": 1.95,
+                "point": 2.5
+              },
+              {
+                "name": "New Orleans Pelicans",
+                "price": 1.87,
+                "point": -2.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-12-20T22:20:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-20T22:20:04Z",
+            "outcomes": [
+              {
+                "name": "Indiana Pacers",
+                "price": 2.24
+              },
+              {
+                "name": "New Orleans Pelicans",
+                "price": 1.71
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-20T22:20:04Z",
+            "outcomes": [
+              {
+                "name": "Indiana Pacers",
+                "price": 1.99,
+                "point": 2.5
+              },
+              {
+                "name": "New Orleans Pelicans",
                 "price": 1.9,
+                "point": -2.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-12-20T22:19:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-20T22:19:14Z",
+            "outcomes": [
+              {
+                "name": "Indiana Pacers",
+                "price": 2.15
+              },
+              {
+                "name": "New Orleans Pelicans",
+                "price": 1.71
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-20T22:19:14Z",
+            "outcomes": [
+              {
+                "name": "Indiana Pacers",
+                "price": 1.91,
+                "point": 2.5
+              },
+              {
+                "name": "New Orleans Pelicans",
+                "price": 1.91,
+                "point": -2.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-12-20T22:19:38Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-20T22:19:38Z",
+            "outcomes": [
+              {
+                "name": "Indiana Pacers",
+                "price": 2.1
+              },
+              {
+                "name": "New Orleans Pelicans",
+                "price": 1.77
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-20T22:19:38Z",
+            "outcomes": [
+              {
+                "name": "Indiana Pacers",
+                "price": 1.95,
                 "point": 1.5
               },
               {
-                "name": "Toronto Raptors",
-                "price": 1.92,
+                "name": "New Orleans Pelicans",
+                "price": 1.87,
                 "point": -1.5
               }
             ]
@@ -420,12 +202,12 @@
             "last_update": "2025-12-20T22:19:22Z",
             "outcomes": [
               {
-                "name": "Boston Celtics",
-                "price": 2
+                "name": "Indiana Pacers",
+                "price": 2.2
               },
               {
-                "name": "Toronto Raptors",
-                "price": 1.83
+                "name": "New Orleans Pelicans",
+                "price": 1.71
               }
             ]
           },
@@ -434,199 +216,14 @@
             "last_update": "2025-12-20T22:19:22Z",
             "outcomes": [
               {
-                "name": "Boston Celtics",
+                "name": "Indiana Pacers",
                 "price": 1.91,
-                "point": 1.5
+                "point": 2.5
               },
               {
-                "name": "Toronto Raptors",
+                "name": "New Orleans Pelicans",
                 "price": 1.91,
-                "point": -1.5
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "lowvig",
-        "title": "LowVig.ag",
-        "last_update": "2025-12-20T22:20:04Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2025-12-20T22:20:04Z",
-            "outcomes": [
-              {
-                "name": "Boston Celtics",
-                "price": 2.01
-              },
-              {
-                "name": "Toronto Raptors",
-                "price": 1.85
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2025-12-20T22:20:04Z",
-            "outcomes": [
-              {
-                "name": "Boston Celtics",
-                "price": 1.93,
-                "point": 1.5
-              },
-              {
-                "name": "Toronto Raptors",
-                "price": 1.95,
-                "point": -1.5
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "mybookieag",
-        "title": "MyBookie.ag",
-        "last_update": "2025-12-20T22:19:14Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2025-12-20T22:19:14Z",
-            "outcomes": [
-              {
-                "name": "Boston Celtics",
-                "price": 2.06
-              },
-              {
-                "name": "Toronto Raptors",
-                "price": 1.77
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2025-12-20T22:19:14Z",
-            "outcomes": [
-              {
-                "name": "Boston Celtics",
-                "price": 1.91,
-                "point": 2
-              },
-              {
-                "name": "Toronto Raptors",
-                "price": 1.91,
-                "point": -2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "fanduel",
-        "title": "FanDuel",
-        "last_update": "2025-12-20T22:20:04Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2025-12-20T22:20:04Z",
-            "outcomes": [
-              {
-                "name": "Boston Celtics",
-                "price": 2.06
-              },
-              {
-                "name": "Toronto Raptors",
-                "price": 1.81
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2025-12-20T22:20:04Z",
-            "outcomes": [
-              {
-                "name": "Boston Celtics",
-                "price": 1.89,
-                "point": 2
-              },
-              {
-                "name": "Toronto Raptors",
-                "price": 1.93,
-                "point": -2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betmgm",
-        "title": "BetMGM",
-        "last_update": "2025-12-20T22:19:38Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2025-12-20T22:19:38Z",
-            "outcomes": [
-              {
-                "name": "Boston Celtics",
-                "price": 2.05
-              },
-              {
-                "name": "Toronto Raptors",
-                "price": 1.8
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2025-12-20T22:19:38Z",
-            "outcomes": [
-              {
-                "name": "Boston Celtics",
-                "price": 1.91,
-                "point": 1.5
-              },
-              {
-                "name": "Toronto Raptors",
-                "price": 1.91,
-                "point": -1.5
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betrivers",
-        "title": "BetRivers",
-        "last_update": "2025-12-20T22:20:04Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2025-12-20T22:20:04Z",
-            "outcomes": [
-              {
-                "name": "Boston Celtics",
-                "price": 2.08
-              },
-              {
-                "name": "Toronto Raptors",
-                "price": 1.75
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2025-12-20T22:20:04Z",
-            "outcomes": [
-              {
-                "name": "Boston Celtics",
-                "price": 1.89,
-                "point": 2
-              },
-              {
-                "name": "Toronto Raptors",
-                "price": 1.88,
-                "point": -2
+                "point": -2.5
               }
             ]
           }
@@ -642,12 +239,12 @@
             "last_update": "2025-12-20T22:19:39Z",
             "outcomes": [
               {
-                "name": "Boston Celtics",
-                "price": 2.05
+                "name": "Indiana Pacers",
+                "price": 2.2
               },
               {
-                "name": "Toronto Raptors",
-                "price": 1.8
+                "name": "New Orleans Pelicans",
+                "price": 1.71
               }
             ]
           },
@@ -656,13 +253,87 @@
             "last_update": "2025-12-20T22:19:39Z",
             "outcomes": [
               {
-                "name": "Boston Celtics",
-                "price": 1.87,
+                "name": "Indiana Pacers",
+                "price": 1.91,
+                "point": 2.5
+              },
+              {
+                "name": "New Orleans Pelicans",
+                "price": 1.91,
+                "point": -2.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-12-20T22:19:38Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-20T22:19:38Z",
+            "outcomes": [
+              {
+                "name": "Indiana Pacers",
+                "price": 2.15
+              },
+              {
+                "name": "New Orleans Pelicans",
+                "price": 1.71
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-20T22:19:38Z",
+            "outcomes": [
+              {
+                "name": "Indiana Pacers",
+                "price": 1.91,
+                "point": 2.5
+              },
+              {
+                "name": "New Orleans Pelicans",
+                "price": 1.91,
+                "point": -2.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-12-20T22:20:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-20T22:20:04Z",
+            "outcomes": [
+              {
+                "name": "Indiana Pacers",
+                "price": 2.07
+              },
+              {
+                "name": "New Orleans Pelicans",
+                "price": 1.76
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-20T22:20:04Z",
+            "outcomes": [
+              {
+                "name": "Indiana Pacers",
+                "price": 1.91,
                 "point": 2
               },
               {
-                "name": "Toronto Raptors",
-                "price": 1.95,
+                "name": "New Orleans Pelicans",
+                "price": 1.87,
                 "point": -2
               }
             ]
@@ -1015,45 +686,45 @@
     ]
   },
   {
-    "id": "666b9bc21f9a5d645dea85f16cfbc5b0",
+    "id": "843dd6e8046c96f00161330ba41f9351",
     "sport_key": "basketball_nba",
     "sport_title": "NBA",
-    "commence_time": "2025-12-21T00:10:00Z",
-    "home_team": "New Orleans Pelicans",
-    "away_team": "Indiana Pacers",
+    "commence_time": "2025-12-21T00:00:00Z",
+    "home_team": "Toronto Raptors",
+    "away_team": "Boston Celtics",
     "bookmakers": [
       {
-        "key": "fanduel",
-        "title": "FanDuel",
-        "last_update": "2025-12-20T22:20:04Z",
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-12-20T22:19:38Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:20:04Z",
+            "last_update": "2025-12-20T22:19:38Z",
             "outcomes": [
               {
-                "name": "Indiana Pacers",
-                "price": 2.18
+                "name": "Boston Celtics",
+                "price": 2.02
               },
               {
-                "name": "New Orleans Pelicans",
-                "price": 1.72
+                "name": "Toronto Raptors",
+                "price": 1.82
               }
             ]
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:20:04Z",
+            "last_update": "2025-12-20T22:19:38Z",
             "outcomes": [
               {
-                "name": "Indiana Pacers",
-                "price": 1.89,
-                "point": 2.5
+                "name": "Boston Celtics",
+                "price": 1.93,
+                "point": 1.5
               },
               {
-                "name": "New Orleans Pelicans",
-                "price": 1.93,
-                "point": -2.5
+                "name": "Toronto Raptors",
+                "price": 1.89,
+                "point": -1.5
               }
             ]
           }
@@ -1069,12 +740,12 @@
             "last_update": "2025-12-20T22:19:52Z",
             "outcomes": [
               {
-                "name": "Indiana Pacers",
-                "price": 2.22
+                "name": "Boston Celtics",
+                "price": 1.99
               },
               {
-                "name": "New Orleans Pelicans",
-                "price": 1.7
+                "name": "Toronto Raptors",
+                "price": 1.84
               }
             ]
           },
@@ -1083,124 +754,13 @@
             "last_update": "2025-12-20T22:19:52Z",
             "outcomes": [
               {
-                "name": "Indiana Pacers",
-                "price": 1.95,
-                "point": 2.5
-              },
-              {
-                "name": "New Orleans Pelicans",
-                "price": 1.87,
-                "point": -2.5
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "lowvig",
-        "title": "LowVig.ag",
-        "last_update": "2025-12-20T22:20:04Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2025-12-20T22:20:04Z",
-            "outcomes": [
-              {
-                "name": "Indiana Pacers",
-                "price": 2.24
-              },
-              {
-                "name": "New Orleans Pelicans",
-                "price": 1.71
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2025-12-20T22:20:04Z",
-            "outcomes": [
-              {
-                "name": "Indiana Pacers",
-                "price": 1.99,
-                "point": 2.5
-              },
-              {
-                "name": "New Orleans Pelicans",
+                "name": "Boston Celtics",
                 "price": 1.9,
-                "point": -2.5
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "mybookieag",
-        "title": "MyBookie.ag",
-        "last_update": "2025-12-20T22:19:14Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2025-12-20T22:19:14Z",
-            "outcomes": [
-              {
-                "name": "Indiana Pacers",
-                "price": 2.15
-              },
-              {
-                "name": "New Orleans Pelicans",
-                "price": 1.71
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2025-12-20T22:19:14Z",
-            "outcomes": [
-              {
-                "name": "Indiana Pacers",
-                "price": 1.91,
-                "point": 2.5
-              },
-              {
-                "name": "New Orleans Pelicans",
-                "price": 1.91,
-                "point": -2.5
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "draftkings",
-        "title": "DraftKings",
-        "last_update": "2025-12-20T22:19:38Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2025-12-20T22:19:38Z",
-            "outcomes": [
-              {
-                "name": "Indiana Pacers",
-                "price": 2.1
-              },
-              {
-                "name": "New Orleans Pelicans",
-                "price": 1.77
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2025-12-20T22:19:38Z",
-            "outcomes": [
-              {
-                "name": "Indiana Pacers",
-                "price": 1.95,
                 "point": 1.5
               },
               {
-                "name": "New Orleans Pelicans",
-                "price": 1.87,
+                "name": "Toronto Raptors",
+                "price": 1.92,
                 "point": -1.5
               }
             ]
@@ -1217,12 +777,12 @@
             "last_update": "2025-12-20T22:19:22Z",
             "outcomes": [
               {
-                "name": "Indiana Pacers",
-                "price": 2.2
+                "name": "Boston Celtics",
+                "price": 2
               },
               {
-                "name": "New Orleans Pelicans",
-                "price": 1.71
+                "name": "Toronto Raptors",
+                "price": 1.83
               }
             ]
           },
@@ -1231,51 +791,125 @@
             "last_update": "2025-12-20T22:19:22Z",
             "outcomes": [
               {
-                "name": "Indiana Pacers",
+                "name": "Boston Celtics",
                 "price": 1.91,
-                "point": 2.5
+                "point": 1.5
               },
               {
-                "name": "New Orleans Pelicans",
+                "name": "Toronto Raptors",
                 "price": 1.91,
-                "point": -2.5
+                "point": -1.5
               }
             ]
           }
         ]
       },
       {
-        "key": "bovada",
-        "title": "Bovada",
-        "last_update": "2025-12-20T22:19:39Z",
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-12-20T22:20:04Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:19:39Z",
+            "last_update": "2025-12-20T22:20:04Z",
             "outcomes": [
               {
-                "name": "Indiana Pacers",
-                "price": 2.2
+                "name": "Boston Celtics",
+                "price": 2.01
               },
               {
-                "name": "New Orleans Pelicans",
-                "price": 1.71
+                "name": "Toronto Raptors",
+                "price": 1.85
               }
             ]
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:19:39Z",
+            "last_update": "2025-12-20T22:20:04Z",
             "outcomes": [
               {
-                "name": "Indiana Pacers",
-                "price": 1.91,
-                "point": 2.5
+                "name": "Boston Celtics",
+                "price": 1.93,
+                "point": 1.5
               },
               {
-                "name": "New Orleans Pelicans",
+                "name": "Toronto Raptors",
+                "price": 1.95,
+                "point": -1.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-12-20T22:19:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-20T22:19:14Z",
+            "outcomes": [
+              {
+                "name": "Boston Celtics",
+                "price": 2.06
+              },
+              {
+                "name": "Toronto Raptors",
+                "price": 1.77
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-20T22:19:14Z",
+            "outcomes": [
+              {
+                "name": "Boston Celtics",
                 "price": 1.91,
-                "point": -2.5
+                "point": 2
+              },
+              {
+                "name": "Toronto Raptors",
+                "price": 1.91,
+                "point": -2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-20T22:20:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-20T22:20:04Z",
+            "outcomes": [
+              {
+                "name": "Boston Celtics",
+                "price": 2.06
+              },
+              {
+                "name": "Toronto Raptors",
+                "price": 1.81
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-20T22:20:04Z",
+            "outcomes": [
+              {
+                "name": "Boston Celtics",
+                "price": 1.89,
+                "point": 2
+              },
+              {
+                "name": "Toronto Raptors",
+                "price": 1.93,
+                "point": -2
               }
             ]
           }
@@ -1291,12 +925,12 @@
             "last_update": "2025-12-20T22:19:38Z",
             "outcomes": [
               {
-                "name": "Indiana Pacers",
-                "price": 2.15
+                "name": "Boston Celtics",
+                "price": 2.05
               },
               {
-                "name": "New Orleans Pelicans",
-                "price": 1.71
+                "name": "Toronto Raptors",
+                "price": 1.8
               }
             ]
           },
@@ -1305,14 +939,14 @@
             "last_update": "2025-12-20T22:19:38Z",
             "outcomes": [
               {
-                "name": "Indiana Pacers",
+                "name": "Boston Celtics",
                 "price": 1.91,
-                "point": 2.5
+                "point": 1.5
               },
               {
-                "name": "New Orleans Pelicans",
+                "name": "Toronto Raptors",
                 "price": 1.91,
-                "point": -2.5
+                "point": -1.5
               }
             ]
           }
@@ -1328,12 +962,12 @@
             "last_update": "2025-12-20T22:20:04Z",
             "outcomes": [
               {
-                "name": "Indiana Pacers",
-                "price": 2.07
+                "name": "Boston Celtics",
+                "price": 2.08
               },
               {
-                "name": "New Orleans Pelicans",
-                "price": 1.76
+                "name": "Toronto Raptors",
+                "price": 1.75
               }
             ]
           },
@@ -1342,13 +976,50 @@
             "last_update": "2025-12-20T22:20:04Z",
             "outcomes": [
               {
-                "name": "Indiana Pacers",
-                "price": 1.91,
+                "name": "Boston Celtics",
+                "price": 1.89,
                 "point": 2
               },
               {
-                "name": "New Orleans Pelicans",
+                "name": "Toronto Raptors",
+                "price": 1.88,
+                "point": -2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-12-20T22:19:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-20T22:19:39Z",
+            "outcomes": [
+              {
+                "name": "Boston Celtics",
+                "price": 2.05
+              },
+              {
+                "name": "Toronto Raptors",
+                "price": 1.8
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-20T22:19:39Z",
+            "outcomes": [
+              {
+                "name": "Boston Celtics",
                 "price": 1.87,
+                "point": 2
+              },
+              {
+                "name": "Toronto Raptors",
+                "price": 1.95,
                 "point": -2
               }
             ]
@@ -2397,11 +2068,11 @@
       {
         "key": "fanduel",
         "title": "FanDuel",
-        "last_update": "2025-12-20T22:20:04Z",
+        "last_update": "2025-12-21T01:58:00Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:20:04Z",
+            "last_update": "2025-12-21T01:58:00Z",
             "outcomes": [
               {
                 "name": "Orlando Magic",
@@ -2415,7 +2086,7 @@
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:20:04Z",
+            "last_update": "2025-12-21T01:58:00Z",
             "outcomes": [
               {
                 "name": "Orlando Magic",
@@ -2434,52 +2105,15 @@
       {
         "key": "betonlineag",
         "title": "BetOnline.ag",
-        "last_update": "2025-12-20T22:19:52Z",
+        "last_update": "2025-12-21T01:57:49Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:19:52Z",
+            "last_update": "2025-12-21T01:57:49Z",
             "outcomes": [
               {
                 "name": "Orlando Magic",
-                "price": 1.33
-              },
-              {
-                "name": "Utah Jazz",
-                "price": 3.49
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2025-12-20T22:19:52Z",
-            "outcomes": [
-              {
-                "name": "Orlando Magic",
-                "price": 1.93,
-                "point": -8
-              },
-              {
-                "name": "Utah Jazz",
-                "price": 1.89,
-                "point": 8
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "lowvig",
-        "title": "LowVig.ag",
-        "last_update": "2025-12-20T22:20:04Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2025-12-20T22:20:04Z",
-            "outcomes": [
-              {
-                "name": "Orlando Magic",
-                "price": 1.33
+                "price": 1.32
               },
               {
                 "name": "Utah Jazz",
@@ -2489,16 +2123,53 @@
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:20:04Z",
+            "last_update": "2025-12-21T01:57:49Z",
             "outcomes": [
               {
                 "name": "Orlando Magic",
-                "price": 1.96,
+                "price": 1.88,
                 "point": -8
               },
               {
                 "name": "Utah Jazz",
-                "price": 1.93,
+                "price": 1.94,
+                "point": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-12-21T01:57:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T01:57:48Z",
+            "outcomes": [
+              {
+                "name": "Orlando Magic",
+                "price": 1.33
+              },
+              {
+                "name": "Utah Jazz",
+                "price": 3.56
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:57:48Z",
+            "outcomes": [
+              {
+                "name": "Orlando Magic",
+                "price": 1.91,
+                "point": -8
+              },
+              {
+                "name": "Utah Jazz",
+                "price": 1.98,
                 "point": 8
               }
             ]
@@ -2508,11 +2179,11 @@
       {
         "key": "betus",
         "title": "BetUS",
-        "last_update": "2025-12-20T22:19:22Z",
+        "last_update": "2025-12-21T01:58:02Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:19:22Z",
+            "last_update": "2025-12-21T01:58:02Z",
             "outcomes": [
               {
                 "name": "Orlando Magic",
@@ -2526,16 +2197,16 @@
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:19:22Z",
+            "last_update": "2025-12-21T01:58:02Z",
             "outcomes": [
               {
                 "name": "Orlando Magic",
-                "price": 1.91,
+                "price": 1.87,
                 "point": -8
               },
               {
                 "name": "Utah Jazz",
-                "price": 1.91,
+                "price": 1.95,
                 "point": 8
               }
             ]
@@ -2545,11 +2216,11 @@
       {
         "key": "mybookieag",
         "title": "MyBookie.ag",
-        "last_update": "2025-12-20T22:19:14Z",
+        "last_update": "2025-12-21T01:57:37Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:19:14Z",
+            "last_update": "2025-12-21T01:57:37Z",
             "outcomes": [
               {
                 "name": "Orlando Magic",
@@ -2557,13 +2228,13 @@
               },
               {
                 "name": "Utah Jazz",
-                "price": 3.43
+                "price": 3.45
               }
             ]
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:19:14Z",
+            "last_update": "2025-12-21T01:57:37Z",
             "outcomes": [
               {
                 "name": "Orlando Magic",
@@ -2582,25 +2253,62 @@
       {
         "key": "draftkings",
         "title": "DraftKings",
-        "last_update": "2025-12-20T22:19:38Z",
+        "last_update": "2025-12-21T01:57:48Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:19:38Z",
+            "last_update": "2025-12-21T01:57:48Z",
             "outcomes": [
               {
                 "name": "Orlando Magic",
-                "price": 1.32
+                "price": 1.33
               },
               {
                 "name": "Utah Jazz",
-                "price": 3.5
+                "price": 3.45
               }
             ]
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:19:38Z",
+            "last_update": "2025-12-21T01:57:48Z",
+            "outcomes": [
+              {
+                "name": "Orlando Magic",
+                "price": 2,
+                "point": -8.5
+              },
+              {
+                "name": "Utah Jazz",
+                "price": 1.83,
+                "point": 8.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-12-21T01:57:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T01:57:48Z",
+            "outcomes": [
+              {
+                "name": "Orlando Magic",
+                "price": 1.33
+              },
+              {
+                "name": "Utah Jazz",
+                "price": 3.4
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:57:48Z",
             "outcomes": [
               {
                 "name": "Orlando Magic",
@@ -2617,73 +2325,36 @@
         ]
       },
       {
-        "key": "betmgm",
-        "title": "BetMGM",
-        "last_update": "2025-12-20T22:19:38Z",
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-12-21T01:56:59Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:19:38Z",
+            "last_update": "2025-12-21T01:56:59Z",
             "outcomes": [
               {
                 "name": "Orlando Magic",
-                "price": 1.33
+                "price": 1.3
               },
               {
                 "name": "Utah Jazz",
-                "price": 3.4
+                "price": 3.65
               }
             ]
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:19:38Z",
+            "last_update": "2025-12-21T01:56:59Z",
             "outcomes": [
               {
                 "name": "Orlando Magic",
                 "price": 1.87,
-                "point": -7.5
-              },
-              {
-                "name": "Utah Jazz",
-                "price": 1.95,
-                "point": 7.5
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "bovada",
-        "title": "Bovada",
-        "last_update": "2025-12-20T22:19:39Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2025-12-20T22:19:39Z",
-            "outcomes": [
-              {
-                "name": "Orlando Magic",
-                "price": 1.31
-              },
-              {
-                "name": "Utah Jazz",
-                "price": 3.6
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2025-12-20T22:19:39Z",
-            "outcomes": [
-              {
-                "name": "Orlando Magic",
-                "price": 1.91,
                 "point": -8
               },
               {
                 "name": "Utah Jazz",
-                "price": 1.91,
+                "price": 1.95,
                 "point": 8
               }
             ]
@@ -2693,11 +2364,11 @@
       {
         "key": "betrivers",
         "title": "BetRivers",
-        "last_update": "2025-12-20T22:20:04Z",
+        "last_update": "2025-12-21T01:57:49Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:20:04Z",
+            "last_update": "2025-12-21T01:57:49Z",
             "outcomes": [
               {
                 "name": "Orlando Magic",
@@ -2711,16 +2382,16 @@
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:20:04Z",
+            "last_update": "2025-12-21T01:57:49Z",
             "outcomes": [
               {
                 "name": "Orlando Magic",
-                "price": 1.91,
+                "price": 1.89,
                 "point": -8
               },
               {
                 "name": "Utah Jazz",
-                "price": 1.87,
+                "price": 1.88,
                 "point": 8
               }
             ]
@@ -2740,34 +2411,34 @@
       {
         "key": "fanduel",
         "title": "FanDuel",
-        "last_update": "2025-12-20T22:20:04Z",
+        "last_update": "2025-12-21T01:58:00Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:20:04Z",
+            "last_update": "2025-12-21T01:58:00Z",
             "outcomes": [
               {
                 "name": "Portland Trail Blazers",
-                "price": 1.56
+                "price": 1.57
               },
               {
                 "name": "Sacramento Kings",
-                "price": 2.5
+                "price": 2.44
               }
             ]
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:20:04Z",
+            "last_update": "2025-12-21T01:58:00Z",
             "outcomes": [
               {
                 "name": "Portland Trail Blazers",
-                "price": 1.91,
+                "price": 1.94,
                 "point": -4.5
               },
               {
                 "name": "Sacramento Kings",
-                "price": 1.91,
+                "price": 1.88,
                 "point": 4.5
               }
             ]
@@ -2777,35 +2448,35 @@
       {
         "key": "lowvig",
         "title": "LowVig.ag",
-        "last_update": "2025-12-20T22:20:04Z",
+        "last_update": "2025-12-21T01:57:48Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:20:04Z",
+            "last_update": "2025-12-21T01:57:48Z",
             "outcomes": [
               {
                 "name": "Portland Trail Blazers",
-                "price": 1.58
+                "price": 1.6
               },
               {
                 "name": "Sacramento Kings",
-                "price": 2.53
+                "price": 2.48
               }
             ]
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:20:04Z",
+            "last_update": "2025-12-21T01:57:48Z",
             "outcomes": [
               {
                 "name": "Portland Trail Blazers",
-                "price": 1.96,
-                "point": -4.5
+                "price": 1.94,
+                "point": -4
               },
               {
                 "name": "Sacramento Kings",
-                "price": 1.93,
-                "point": 4.5
+                "price": 1.94,
+                "point": 4
               }
             ]
           }
@@ -2814,35 +2485,35 @@
       {
         "key": "betonlineag",
         "title": "BetOnline.ag",
-        "last_update": "2025-12-20T22:19:52Z",
+        "last_update": "2025-12-21T01:57:49Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:19:52Z",
+            "last_update": "2025-12-21T01:57:49Z",
             "outcomes": [
               {
                 "name": "Portland Trail Blazers",
-                "price": 1.58
+                "price": 1.6
               },
               {
                 "name": "Sacramento Kings",
-                "price": 2.52
+                "price": 2.47
               }
             ]
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:19:52Z",
+            "last_update": "2025-12-21T01:57:49Z",
             "outcomes": [
               {
                 "name": "Portland Trail Blazers",
-                "price": 1.93,
-                "point": -4.5
+                "price": 1.91,
+                "point": -4
               },
               {
                 "name": "Sacramento Kings",
-                "price": 1.89,
-                "point": 4.5
+                "price": 1.91,
+                "point": 4
               }
             ]
           }
@@ -2851,35 +2522,35 @@
       {
         "key": "mybookieag",
         "title": "MyBookie.ag",
-        "last_update": "2025-12-20T22:19:14Z",
+        "last_update": "2025-12-21T01:57:37Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:19:14Z",
+            "last_update": "2025-12-21T01:57:37Z",
             "outcomes": [
               {
                 "name": "Portland Trail Blazers",
-                "price": 1.54
+                "price": 1.56
               },
               {
                 "name": "Sacramento Kings",
-                "price": 2.49
+                "price": 2.44
               }
             ]
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:19:14Z",
+            "last_update": "2025-12-21T01:57:37Z",
             "outcomes": [
               {
                 "name": "Portland Trail Blazers",
                 "price": 1.91,
-                "point": -4.5
+                "point": -4
               },
               {
                 "name": "Sacramento Kings",
                 "price": 1.91,
-                "point": 4.5
+                "point": 4
               }
             ]
           }
@@ -2888,48 +2559,11 @@
       {
         "key": "draftkings",
         "title": "DraftKings",
-        "last_update": "2025-12-20T22:19:38Z",
+        "last_update": "2025-12-21T01:57:48Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:19:38Z",
-            "outcomes": [
-              {
-                "name": "Portland Trail Blazers",
-                "price": 1.56
-              },
-              {
-                "name": "Sacramento Kings",
-                "price": 2.5
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2025-12-20T22:19:38Z",
-            "outcomes": [
-              {
-                "name": "Portland Trail Blazers",
-                "price": 1.91,
-                "point": -4.5
-              },
-              {
-                "name": "Sacramento Kings",
-                "price": 1.91,
-                "point": 4.5
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "bovada",
-        "title": "Bovada",
-        "last_update": "2025-12-20T22:19:39Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2025-12-20T22:19:39Z",
+            "last_update": "2025-12-21T01:57:48Z",
             "outcomes": [
               {
                 "name": "Portland Trail Blazers",
@@ -2937,13 +2571,13 @@
               },
               {
                 "name": "Sacramento Kings",
-                "price": 2.5
+                "price": 2.45
               }
             ]
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:19:39Z",
+            "last_update": "2025-12-21T01:57:48Z",
             "outcomes": [
               {
                 "name": "Portland Trail Blazers",
@@ -2960,37 +2594,74 @@
         ]
       },
       {
-        "key": "betus",
-        "title": "BetUS",
-        "last_update": "2025-12-20T22:19:22Z",
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-12-21T01:56:59Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:19:22Z",
+            "last_update": "2025-12-21T01:56:59Z",
             "outcomes": [
               {
                 "name": "Portland Trail Blazers",
-                "price": 1.57
+                "price": 1.59
               },
               {
                 "name": "Sacramento Kings",
-                "price": 2.5
+                "price": 2.45
               }
             ]
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:19:22Z",
+            "last_update": "2025-12-21T01:56:59Z",
             "outcomes": [
               {
                 "name": "Portland Trail Blazers",
                 "price": 1.91,
-                "point": -4.5
+                "point": -4
               },
               {
                 "name": "Sacramento Kings",
                 "price": 1.91,
-                "point": 4.5
+                "point": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-12-21T01:58:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T01:58:02Z",
+            "outcomes": [
+              {
+                "name": "Portland Trail Blazers",
+                "price": 1.61
+              },
+              {
+                "name": "Sacramento Kings",
+                "price": 2.42
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:58:02Z",
+            "outcomes": [
+              {
+                "name": "Portland Trail Blazers",
+                "price": 1.91,
+                "point": -4
+              },
+              {
+                "name": "Sacramento Kings",
+                "price": 1.91,
+                "point": 4
               }
             ]
           }
@@ -2999,35 +2670,35 @@
       {
         "key": "betmgm",
         "title": "BetMGM",
-        "last_update": "2025-12-20T22:19:38Z",
+        "last_update": "2025-12-21T01:57:48Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:19:38Z",
+            "last_update": "2025-12-21T01:57:48Z",
             "outcomes": [
               {
                 "name": "Portland Trail Blazers",
-                "price": 1.53
+                "price": 1.57
               },
               {
                 "name": "Sacramento Kings",
-                "price": 2.54
+                "price": 2.45
               }
             ]
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:19:38Z",
+            "last_update": "2025-12-21T01:57:48Z",
             "outcomes": [
               {
                 "name": "Portland Trail Blazers",
-                "price": 1.91,
-                "point": -4.5
+                "price": 1.85,
+                "point": -3.5
               },
               {
                 "name": "Sacramento Kings",
-                "price": 1.91,
-                "point": 4.5
+                "price": 1.98,
+                "point": 3.5
               }
             ]
           }
@@ -3036,35 +2707,35 @@
       {
         "key": "betrivers",
         "title": "BetRivers",
-        "last_update": "2025-12-20T22:20:04Z",
+        "last_update": "2025-12-21T01:57:49Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:20:04Z",
+            "last_update": "2025-12-21T01:57:49Z",
             "outcomes": [
               {
                 "name": "Portland Trail Blazers",
-                "price": 1.51
+                "price": 1.56
               },
               {
                 "name": "Sacramento Kings",
-                "price": 2.55
+                "price": 2.43
               }
             ]
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:20:04Z",
+            "last_update": "2025-12-21T01:57:49Z",
             "outcomes": [
               {
                 "name": "Portland Trail Blazers",
-                "price": 1.89,
-                "point": -5
+                "price": 1.91,
+                "point": -4.5
               },
               {
                 "name": "Sacramento Kings",
-                "price": 1.88,
-                "point": 5
+                "price": 1.87,
+                "point": 4.5
               }
             ]
           }
@@ -3083,11 +2754,11 @@
       {
         "key": "fanduel",
         "title": "FanDuel",
-        "last_update": "2025-12-20T22:20:04Z",
+        "last_update": "2025-12-21T01:58:00Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:20:04Z",
+            "last_update": "2025-12-21T01:58:00Z",
             "outcomes": [
               {
                 "name": "Los Angeles Clippers",
@@ -3101,7 +2772,7 @@
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:20:04Z",
+            "last_update": "2025-12-21T01:58:00Z",
             "outcomes": [
               {
                 "name": "Los Angeles Clippers",
@@ -3120,11 +2791,11 @@
       {
         "key": "mybookieag",
         "title": "MyBookie.ag",
-        "last_update": "2025-12-20T22:19:14Z",
+        "last_update": "2025-12-21T01:57:37Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:19:14Z",
+            "last_update": "2025-12-21T01:57:37Z",
             "outcomes": [
               {
                 "name": "Los Angeles Clippers",
@@ -3138,7 +2809,7 @@
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:19:14Z",
+            "last_update": "2025-12-21T01:57:37Z",
             "outcomes": [
               {
                 "name": "Los Angeles Clippers",
@@ -3157,25 +2828,25 @@
       {
         "key": "draftkings",
         "title": "DraftKings",
-        "last_update": "2025-12-20T22:19:38Z",
+        "last_update": "2025-12-21T01:57:48Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:19:38Z",
+            "last_update": "2025-12-21T01:57:48Z",
             "outcomes": [
               {
                 "name": "Los Angeles Clippers",
-                "price": 2
+                "price": 2.05
               },
               {
                 "name": "Los Angeles Lakers",
-                "price": 1.83
+                "price": 1.8
               }
             ]
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:19:38Z",
+            "last_update": "2025-12-21T01:57:48Z",
             "outcomes": [
               {
                 "name": "Los Angeles Clippers",
@@ -3194,11 +2865,11 @@
       {
         "key": "betonlineag",
         "title": "BetOnline.ag",
-        "last_update": "2025-12-20T22:19:52Z",
+        "last_update": "2025-12-21T01:57:49Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:19:52Z",
+            "last_update": "2025-12-21T01:57:49Z",
             "outcomes": [
               {
                 "name": "Los Angeles Clippers",
@@ -3212,7 +2883,7 @@
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:19:52Z",
+            "last_update": "2025-12-21T01:57:49Z",
             "outcomes": [
               {
                 "name": "Los Angeles Clippers",
@@ -3231,11 +2902,11 @@
       {
         "key": "lowvig",
         "title": "LowVig.ag",
-        "last_update": "2025-12-20T22:20:04Z",
+        "last_update": "2025-12-21T01:57:48Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:20:04Z",
+            "last_update": "2025-12-21T01:57:48Z",
             "outcomes": [
               {
                 "name": "Los Angeles Clippers",
@@ -3249,7 +2920,7 @@
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:20:04Z",
+            "last_update": "2025-12-21T01:57:48Z",
             "outcomes": [
               {
                 "name": "Los Angeles Clippers",
@@ -3268,11 +2939,11 @@
       {
         "key": "betmgm",
         "title": "BetMGM",
-        "last_update": "2025-12-20T22:19:38Z",
+        "last_update": "2025-12-21T01:57:48Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:19:38Z",
+            "last_update": "2025-12-21T01:57:48Z",
             "outcomes": [
               {
                 "name": "Los Angeles Clippers",
@@ -3286,7 +2957,7 @@
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:19:38Z",
+            "last_update": "2025-12-21T01:57:48Z",
             "outcomes": [
               {
                 "name": "Los Angeles Clippers",
@@ -3305,11 +2976,11 @@
       {
         "key": "betus",
         "title": "BetUS",
-        "last_update": "2025-12-20T22:19:22Z",
+        "last_update": "2025-12-21T01:58:02Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:19:22Z",
+            "last_update": "2025-12-21T01:58:02Z",
             "outcomes": [
               {
                 "name": "Los Angeles Clippers",
@@ -3323,7 +2994,7 @@
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:19:22Z",
+            "last_update": "2025-12-21T01:58:02Z",
             "outcomes": [
               {
                 "name": "Los Angeles Clippers",
@@ -3342,11 +3013,11 @@
       {
         "key": "bovada",
         "title": "Bovada",
-        "last_update": "2025-12-20T22:19:39Z",
+        "last_update": "2025-12-21T01:56:59Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:19:39Z",
+            "last_update": "2025-12-21T01:56:59Z",
             "outcomes": [
               {
                 "name": "Los Angeles Clippers",
@@ -3360,17 +3031,17 @@
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:19:39Z",
+            "last_update": "2025-12-21T01:56:59Z",
             "outcomes": [
               {
                 "name": "Los Angeles Clippers",
-                "price": 1.87,
-                "point": 2
+                "price": 1.95,
+                "point": 1.5
               },
               {
                 "name": "Los Angeles Lakers",
-                "price": 1.95,
-                "point": -2
+                "price": 1.87,
+                "point": -1.5
               }
             ]
           }
@@ -3379,35 +3050,35 @@
       {
         "key": "betrivers",
         "title": "BetRivers",
-        "last_update": "2025-12-20T22:20:04Z",
+        "last_update": "2025-12-21T01:57:49Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:20:04Z",
+            "last_update": "2025-12-21T01:57:49Z",
             "outcomes": [
               {
                 "name": "Los Angeles Clippers",
-                "price": 1.97
+                "price": 2.04
               },
               {
                 "name": "Los Angeles Lakers",
-                "price": 1.82
+                "price": 1.78
               }
             ]
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:20:04Z",
+            "last_update": "2025-12-21T01:57:49Z",
             "outcomes": [
               {
                 "name": "Los Angeles Clippers",
-                "price": 1.88,
-                "point": 1.5
+                "price": 1.87,
+                "point": 2
               },
               {
                 "name": "Los Angeles Lakers",
-                "price": 1.89,
-                "point": -1.5
+                "price": 1.91,
+                "point": -2
               }
             ]
           }
@@ -3426,34 +3097,34 @@
       {
         "key": "fanduel",
         "title": "FanDuel",
-        "last_update": "2025-12-20T22:20:04Z",
+        "last_update": "2025-12-21T01:58:00Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2025-12-20T22:20:04Z",
+            "last_update": "2025-12-21T01:58:00Z",
             "outcomes": [
               {
                 "name": "Atlanta Hawks",
-                "price": 1.45
+                "price": 1.5
               },
               {
                 "name": "Chicago Bulls",
-                "price": 2.84
+                "price": 2.68
               }
             ]
           },
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:20:04Z",
+            "last_update": "2025-12-21T01:58:00Z",
             "outcomes": [
               {
                 "name": "Atlanta Hawks",
-                "price": 1.91,
+                "price": 1.94,
                 "point": -5.5
               },
               {
                 "name": "Chicago Bulls",
-                "price": 1.91,
+                "price": 1.88,
                 "point": 5.5
               }
             ]
@@ -3463,11 +3134,11 @@
       {
         "key": "betonlineag",
         "title": "BetOnline.ag",
-        "last_update": "2025-12-20T22:19:52Z",
+        "last_update": "2025-12-21T01:57:49Z",
         "markets": [
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:19:52Z",
+            "last_update": "2025-12-21T01:57:49Z",
             "outcomes": [
               {
                 "name": "Atlanta Hawks",
@@ -3486,11 +3157,11 @@
       {
         "key": "lowvig",
         "title": "LowVig.ag",
-        "last_update": "2025-12-20T22:20:04Z",
+        "last_update": "2025-12-21T01:57:48Z",
         "markets": [
           {
             "key": "spreads",
-            "last_update": "2025-12-20T22:20:04Z",
+            "last_update": "2025-12-21T01:57:48Z",
             "outcomes": [
               {
                 "name": "Atlanta Hawks",
@@ -3501,6 +3172,1007 @@
                 "name": "Chicago Bulls",
                 "price": 1.94,
                 "point": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-12-21T01:57:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T01:57:48Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Hawks",
+                "price": 1.49
+              },
+              {
+                "name": "Chicago Bulls",
+                "price": 2.7
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:57:48Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Hawks",
+                "price": 1.85,
+                "point": -4.5
+              },
+              {
+                "name": "Chicago Bulls",
+                "price": 1.98,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-12-21T01:57:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T01:57:49Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Hawks",
+                "price": 1.51
+              },
+              {
+                "name": "Chicago Bulls",
+                "price": 2.55
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:57:49Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Hawks",
+                "price": 1.88,
+                "point": -5
+              },
+              {
+                "name": "Chicago Bulls",
+                "price": 1.88,
+                "point": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-12-21T01:56:59Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:56:59Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Hawks",
+                "price": 1.91,
+                "point": -5
+              },
+              {
+                "name": "Chicago Bulls",
+                "price": 1.91,
+                "point": 5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ff7964f4c86f473756171eade6735f5c",
+    "sport_key": "basketball_nba",
+    "sport_title": "NBA",
+    "commence_time": "2025-12-21T23:10:00Z",
+    "home_team": "Brooklyn Nets",
+    "away_team": "Toronto Raptors",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-21T01:58:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T01:58:00Z",
+            "outcomes": [
+              {
+                "name": "Brooklyn Nets",
+                "price": 2.54
+              },
+              {
+                "name": "Toronto Raptors",
+                "price": 1.54
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:58:00Z",
+            "outcomes": [
+              {
+                "name": "Brooklyn Nets",
+                "price": 1.91,
+                "point": 4.5
+              },
+              {
+                "name": "Toronto Raptors",
+                "price": 1.91,
+                "point": -4.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-12-21T01:57:49Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:57:49Z",
+            "outcomes": [
+              {
+                "name": "Brooklyn Nets",
+                "price": 1.91,
+                "point": 4
+              },
+              {
+                "name": "Toronto Raptors",
+                "price": 1.91,
+                "point": -4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-12-21T01:57:48Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:57:48Z",
+            "outcomes": [
+              {
+                "name": "Brooklyn Nets",
+                "price": 1.94,
+                "point": 4
+              },
+              {
+                "name": "Toronto Raptors",
+                "price": 1.94,
+                "point": -4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-12-21T01:57:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T01:57:48Z",
+            "outcomes": [
+              {
+                "name": "Brooklyn Nets",
+                "price": 2.45
+              },
+              {
+                "name": "Toronto Raptors",
+                "price": 1.57
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:57:48Z",
+            "outcomes": [
+              {
+                "name": "Brooklyn Nets",
+                "price": 1.91,
+                "point": 4.5
+              },
+              {
+                "name": "Toronto Raptors",
+                "price": 1.91,
+                "point": -4.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-12-21T01:56:59Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:56:59Z",
+            "outcomes": [
+              {
+                "name": "Brooklyn Nets",
+                "price": 1.91,
+                "point": 4.5
+              },
+              {
+                "name": "Toronto Raptors",
+                "price": 1.91,
+                "point": -4.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-12-21T01:57:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T01:57:49Z",
+            "outcomes": [
+              {
+                "name": "Brooklyn Nets",
+                "price": 2.5
+              },
+              {
+                "name": "Toronto Raptors",
+                "price": 1.53
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:57:49Z",
+            "outcomes": [
+              {
+                "name": "Brooklyn Nets",
+                "price": 1.89,
+                "point": 4.5
+              },
+              {
+                "name": "Toronto Raptors",
+                "price": 1.88,
+                "point": -4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3e52c319a576ac5e8f500c83994ab307",
+    "sport_key": "basketball_nba",
+    "sport_title": "NBA",
+    "commence_time": "2025-12-21T23:10:00Z",
+    "home_team": "New York Knicks",
+    "away_team": "Miami Heat",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-21T01:58:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T01:58:00Z",
+            "outcomes": [
+              {
+                "name": "Miami Heat",
+                "price": 3.6
+              },
+              {
+                "name": "New York Knicks",
+                "price": 1.31
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:58:00Z",
+            "outcomes": [
+              {
+                "name": "Miami Heat",
+                "price": 1.91,
+                "point": 8.5
+              },
+              {
+                "name": "New York Knicks",
+                "price": 1.91,
+                "point": -8.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-12-21T01:57:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T01:57:48Z",
+            "outcomes": [
+              {
+                "name": "Miami Heat",
+                "price": 3.5
+              },
+              {
+                "name": "New York Knicks",
+                "price": 1.32
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:57:48Z",
+            "outcomes": [
+              {
+                "name": "Miami Heat",
+                "price": 1.91,
+                "point": 8.5
+              },
+              {
+                "name": "New York Knicks",
+                "price": 1.91,
+                "point": -8.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-12-21T01:57:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T01:57:49Z",
+            "outcomes": [
+              {
+                "name": "Miami Heat",
+                "price": 3.85
+              },
+              {
+                "name": "New York Knicks",
+                "price": 1.26
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:57:49Z",
+            "outcomes": [
+              {
+                "name": "Miami Heat",
+                "price": 1.91,
+                "point": 8.5
+              },
+              {
+                "name": "New York Knicks",
+                "price": 1.87,
+                "point": -8.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-12-21T01:56:59Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:56:59Z",
+            "outcomes": [
+              {
+                "name": "Miami Heat",
+                "price": 1.91,
+                "point": 8.5
+              },
+              {
+                "name": "New York Knicks",
+                "price": 1.91,
+                "point": -8.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1f2a0a04a8757ee59990da7c3f455231",
+    "sport_key": "basketball_nba",
+    "sport_title": "NBA",
+    "commence_time": "2025-12-22T00:10:00Z",
+    "home_team": "Minnesota Timberwolves",
+    "away_team": "Milwaukee Bucks",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-21T01:58:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T01:58:00Z",
+            "outcomes": [
+              {
+                "name": "Milwaukee Bucks",
+                "price": 6.6
+              },
+              {
+                "name": "Minnesota Timberwolves",
+                "price": 1.12
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:58:00Z",
+            "outcomes": [
+              {
+                "name": "Milwaukee Bucks",
+                "price": 1.91,
+                "point": 12.5
+              },
+              {
+                "name": "Minnesota Timberwolves",
+                "price": 1.91,
+                "point": -12.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-12-21T01:57:49Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:57:49Z",
+            "outcomes": [
+              {
+                "name": "Milwaukee Bucks",
+                "price": 1.91,
+                "point": 12
+              },
+              {
+                "name": "Minnesota Timberwolves",
+                "price": 1.91,
+                "point": -12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-12-21T01:57:48Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:57:48Z",
+            "outcomes": [
+              {
+                "name": "Milwaukee Bucks",
+                "price": 1.94,
+                "point": 12
+              },
+              {
+                "name": "Minnesota Timberwolves",
+                "price": 1.94,
+                "point": -12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-12-21T01:57:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T01:57:48Z",
+            "outcomes": [
+              {
+                "name": "Milwaukee Bucks",
+                "price": 6
+              },
+              {
+                "name": "Minnesota Timberwolves",
+                "price": 1.14
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:57:48Z",
+            "outcomes": [
+              {
+                "name": "Milwaukee Bucks",
+                "price": 1.87,
+                "point": 12.5
+              },
+              {
+                "name": "Minnesota Timberwolves",
+                "price": 1.95,
+                "point": -12.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-12-21T01:57:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T01:57:49Z",
+            "outcomes": [
+              {
+                "name": "Milwaukee Bucks",
+                "price": 5.4
+              },
+              {
+                "name": "Minnesota Timberwolves",
+                "price": 1.15
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:57:49Z",
+            "outcomes": [
+              {
+                "name": "Milwaukee Bucks",
+                "price": 1.89,
+                "point": 11.5
+              },
+              {
+                "name": "Minnesota Timberwolves",
+                "price": 1.88,
+                "point": -11.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-12-21T01:56:59Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:56:59Z",
+            "outcomes": [
+              {
+                "name": "Milwaukee Bucks",
+                "price": 1.91,
+                "point": 12
+              },
+              {
+                "name": "Minnesota Timberwolves",
+                "price": 1.91,
+                "point": -12
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aef0c26b3670edaf7fb230056fb4adc7",
+    "sport_key": "basketball_nba",
+    "sport_title": "NBA",
+    "commence_time": "2025-12-22T00:10:00Z",
+    "home_team": "Washington Wizards",
+    "away_team": "San Antonio Spurs",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-21T01:58:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T01:58:00Z",
+            "outcomes": [
+              {
+                "name": "San Antonio Spurs",
+                "price": 1.09
+              },
+              {
+                "name": "Washington Wizards",
+                "price": 8
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:58:00Z",
+            "outcomes": [
+              {
+                "name": "San Antonio Spurs",
+                "price": 1.91,
+                "point": -15.5
+              },
+              {
+                "name": "Washington Wizards",
+                "price": 1.91,
+                "point": 15.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-12-21T01:57:49Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:57:49Z",
+            "outcomes": [
+              {
+                "name": "San Antonio Spurs",
+                "price": 1.91,
+                "point": -16
+              },
+              {
+                "name": "Washington Wizards",
+                "price": 1.91,
+                "point": 16
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-12-21T01:57:48Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:57:48Z",
+            "outcomes": [
+              {
+                "name": "San Antonio Spurs",
+                "price": 1.94,
+                "point": -16
+              },
+              {
+                "name": "Washington Wizards",
+                "price": 1.94,
+                "point": 16
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-12-21T01:57:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T01:57:48Z",
+            "outcomes": [
+              {
+                "name": "San Antonio Spurs",
+                "price": 1.09
+              },
+              {
+                "name": "Washington Wizards",
+                "price": 8
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:57:48Z",
+            "outcomes": [
+              {
+                "name": "San Antonio Spurs",
+                "price": 1.91,
+                "point": -15.5
+              },
+              {
+                "name": "Washington Wizards",
+                "price": 1.91,
+                "point": 15.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-12-21T01:56:59Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:56:59Z",
+            "outcomes": [
+              {
+                "name": "San Antonio Spurs",
+                "price": 1.91,
+                "point": -16
+              },
+              {
+                "name": "Washington Wizards",
+                "price": 1.91,
+                "point": 16
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-12-21T01:57:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T01:57:49Z",
+            "outcomes": [
+              {
+                "name": "San Antonio Spurs",
+                "price": 1.09
+              },
+              {
+                "name": "Washington Wizards",
+                "price": 7.5
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:57:49Z",
+            "outcomes": [
+              {
+                "name": "San Antonio Spurs",
+                "price": 1.88,
+                "point": -15.5
+              },
+              {
+                "name": "Washington Wizards",
+                "price": 1.88,
+                "point": 15.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8719cad3aae5d2048ba5cfe820fbf698",
+    "sport_key": "basketball_nba",
+    "sport_title": "NBA",
+    "commence_time": "2025-12-22T03:10:00Z",
+    "home_team": "Sacramento Kings",
+    "away_team": "Houston Rockets",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-21T01:58:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T01:58:00Z",
+            "outcomes": [
+              {
+                "name": "Houston Rockets",
+                "price": 1.15
+              },
+              {
+                "name": "Sacramento Kings",
+                "price": 5.8
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:58:00Z",
+            "outcomes": [
+              {
+                "name": "Houston Rockets",
+                "price": 1.91,
+                "point": -12
+              },
+              {
+                "name": "Sacramento Kings",
+                "price": 1.91,
+                "point": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-12-21T01:57:49Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:57:49Z",
+            "outcomes": [
+              {
+                "name": "Houston Rockets",
+                "price": 1.91,
+                "point": -12
+              },
+              {
+                "name": "Sacramento Kings",
+                "price": 1.91,
+                "point": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-12-21T01:57:48Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:57:48Z",
+            "outcomes": [
+              {
+                "name": "Houston Rockets",
+                "price": 1.94,
+                "point": -12
+              },
+              {
+                "name": "Sacramento Kings",
+                "price": 1.94,
+                "point": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-12-21T01:57:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T01:57:48Z",
+            "outcomes": [
+              {
+                "name": "Houston Rockets",
+                "price": 1.14
+              },
+              {
+                "name": "Sacramento Kings",
+                "price": 6
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:57:48Z",
+            "outcomes": [
+              {
+                "name": "Houston Rockets",
+                "price": 1.95,
+                "point": -12.5
+              },
+              {
+                "name": "Sacramento Kings",
+                "price": 1.87,
+                "point": 12.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-12-21T01:56:59Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:56:59Z",
+            "outcomes": [
+              {
+                "name": "Houston Rockets",
+                "price": 1.91,
+                "point": -12
+              },
+              {
+                "name": "Sacramento Kings",
+                "price": 1.91,
+                "point": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-12-21T01:57:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T01:57:49Z",
+            "outcomes": [
+              {
+                "name": "Houston Rockets",
+                "price": 1.15
+              },
+              {
+                "name": "Sacramento Kings",
+                "price": 5.4
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T01:57:49Z",
+            "outcomes": [
+              {
+                "name": "Houston Rockets",
+                "price": 1.91,
+                "point": -12
+              },
+              {
+                "name": "Sacramento Kings",
+                "price": 1.87,
+                "point": 12
               }
             ]
           }
