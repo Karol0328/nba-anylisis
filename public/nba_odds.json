@@ -1,348 +1,5 @@
 [
   {
-    "id": "30d614c5d781b768faf9cf885e890851",
-    "sport_key": "basketball_nba",
-    "sport_title": "NBA",
-    "commence_time": "2026-05-08T23:10:00Z",
-    "home_team": "Philadelphia 76ers",
-    "away_team": "New York Knicks",
-    "bookmakers": [
-      {
-        "key": "fanduel",
-        "title": "FanDuel",
-        "last_update": "2026-05-08T22:56:55Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-05-08T22:56:55Z",
-            "outcomes": [
-              {
-                "name": "New York Knicks",
-                "price": 2.38
-              },
-              {
-                "name": "Philadelphia 76ers",
-                "price": 1.61
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2026-05-08T22:56:55Z",
-            "outcomes": [
-              {
-                "name": "New York Knicks",
-                "price": 1.91,
-                "point": 3.5
-              },
-              {
-                "name": "Philadelphia 76ers",
-                "price": 1.91,
-                "point": -3.5
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "draftkings",
-        "title": "DraftKings",
-        "last_update": "2026-05-08T22:55:41Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-05-08T22:55:41Z",
-            "outcomes": [
-              {
-                "name": "New York Knicks",
-                "price": 2.3
-              },
-              {
-                "name": "Philadelphia 76ers",
-                "price": 1.65
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2026-05-08T22:55:41Z",
-            "outcomes": [
-              {
-                "name": "New York Knicks",
-                "price": 1.87,
-                "point": 3.5
-              },
-              {
-                "name": "Philadelphia 76ers",
-                "price": 1.95,
-                "point": -3.5
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betmgm",
-        "title": "BetMGM",
-        "last_update": "2026-05-08T22:55:41Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-05-08T22:55:41Z",
-            "outcomes": [
-              {
-                "name": "New York Knicks",
-                "price": 2.25
-              },
-              {
-                "name": "Philadelphia 76ers",
-                "price": 1.67
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2026-05-08T22:55:41Z",
-            "outcomes": [
-              {
-                "name": "New York Knicks",
-                "price": 1.87,
-                "point": 3.5
-              },
-              {
-                "name": "Philadelphia 76ers",
-                "price": 1.95,
-                "point": -3.5
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betrivers",
-        "title": "BetRivers",
-        "last_update": "2026-05-08T22:56:55Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-05-08T22:56:55Z",
-            "outcomes": [
-              {
-                "name": "New York Knicks",
-                "price": 2.33
-              },
-              {
-                "name": "Philadelphia 76ers",
-                "price": 1.6
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2026-05-08T22:56:55Z",
-            "outcomes": [
-              {
-                "name": "New York Knicks",
-                "price": 1.88,
-                "point": 3.5
-              },
-              {
-                "name": "Philadelphia 76ers",
-                "price": 1.91,
-                "point": -3.5
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "lowvig",
-        "title": "LowVig.ag",
-        "last_update": "2026-05-08T22:56:26Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-05-08T22:56:26Z",
-            "outcomes": [
-              {
-                "name": "New York Knicks",
-                "price": 2.31
-              },
-              {
-                "name": "Philadelphia 76ers",
-                "price": 1.68
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2026-05-08T22:56:26Z",
-            "outcomes": [
-              {
-                "name": "New York Knicks",
-                "price": 1.97,
-                "point": 3
-              },
-              {
-                "name": "Philadelphia 76ers",
-                "price": 1.92,
-                "point": -3
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betonlineag",
-        "title": "BetOnline.ag",
-        "last_update": "2026-05-08T22:56:26Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-05-08T22:56:26Z",
-            "outcomes": [
-              {
-                "name": "New York Knicks",
-                "price": 2.29
-              },
-              {
-                "name": "Philadelphia 76ers",
-                "price": 1.67
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2026-05-08T22:56:26Z",
-            "outcomes": [
-              {
-                "name": "New York Knicks",
-                "price": 1.92,
-                "point": 3
-              },
-              {
-                "name": "Philadelphia 76ers",
-                "price": 1.9,
-                "point": -3
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "mybookieag",
-        "title": "MyBookie.ag",
-        "last_update": "2026-05-08T22:55:10Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-05-08T22:55:10Z",
-            "outcomes": [
-              {
-                "name": "New York Knicks",
-                "price": 2.28
-              },
-              {
-                "name": "Philadelphia 76ers",
-                "price": 1.63
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2026-05-08T22:55:10Z",
-            "outcomes": [
-              {
-                "name": "New York Knicks",
-                "price": 1.91,
-                "point": 3.5
-              },
-              {
-                "name": "Philadelphia 76ers",
-                "price": 1.91,
-                "point": -3.5
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "bovada",
-        "title": "Bovada",
-        "last_update": "2026-05-08T22:55:43Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-05-08T22:55:43Z",
-            "outcomes": [
-              {
-                "name": "New York Knicks",
-                "price": 2.35
-              },
-              {
-                "name": "Philadelphia 76ers",
-                "price": 1.62
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2026-05-08T22:55:43Z",
-            "outcomes": [
-              {
-                "name": "New York Knicks",
-                "price": 1.91,
-                "point": 3
-              },
-              {
-                "name": "Philadelphia 76ers",
-                "price": 1.91,
-                "point": -3
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betus",
-        "title": "BetUS",
-        "last_update": "2026-05-08T22:56:26Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-05-08T22:56:26Z",
-            "outcomes": [
-              {
-                "name": "New York Knicks",
-                "price": 2.29
-              },
-              {
-                "name": "Philadelphia 76ers",
-                "price": 1.67
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2026-05-08T22:56:26Z",
-            "outcomes": [
-              {
-                "name": "New York Knicks",
-                "price": 1.91,
-                "point": 3.5
-              },
-              {
-                "name": "Philadelphia 76ers",
-                "price": 1.91,
-                "point": -3.5
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "1b5c084f510006e8f30cd6cac40e231d",
     "sport_key": "basketball_nba",
     "sport_title": "NBA",
@@ -696,25 +353,25 @@
       {
         "key": "fanduel",
         "title": "FanDuel",
-        "last_update": "2026-05-08T22:56:55Z",
+        "last_update": "2026-05-09T03:21:31Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-05-08T22:56:55Z",
+            "last_update": "2026-05-09T03:21:31Z",
             "outcomes": [
               {
                 "name": "Cleveland Cavaliers",
-                "price": 1.56
+                "price": 1.54
               },
               {
                 "name": "Detroit Pistons",
-                "price": 2.52
+                "price": 2.54
               }
             ]
           },
           {
             "key": "spreads",
-            "last_update": "2026-05-08T22:56:55Z",
+            "last_update": "2026-05-09T03:21:31Z",
             "outcomes": [
               {
                 "name": "Cleveland Cavaliers",
@@ -733,25 +390,25 @@
       {
         "key": "draftkings",
         "title": "DraftKings",
-        "last_update": "2026-05-08T22:55:41Z",
+        "last_update": "2026-05-09T03:21:17Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-05-08T22:55:41Z",
+            "last_update": "2026-05-09T03:21:17Z",
             "outcomes": [
               {
                 "name": "Cleveland Cavaliers",
-                "price": 1.56
+                "price": 1.57
               },
               {
                 "name": "Detroit Pistons",
-                "price": 2.5
+                "price": 2.45
               }
             ]
           },
           {
             "key": "spreads",
-            "last_update": "2026-05-08T22:55:41Z",
+            "last_update": "2026-05-09T03:21:17Z",
             "outcomes": [
               {
                 "name": "Cleveland Cavaliers",
@@ -770,11 +427,11 @@
       {
         "key": "lowvig",
         "title": "LowVig.ag",
-        "last_update": "2026-05-08T22:56:26Z",
+        "last_update": "2026-05-09T03:21:04Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-05-08T22:56:26Z",
+            "last_update": "2026-05-09T03:21:04Z",
             "outcomes": [
               {
                 "name": "Cleveland Cavaliers",
@@ -788,7 +445,7 @@
           },
           {
             "key": "spreads",
-            "last_update": "2026-05-08T22:56:26Z",
+            "last_update": "2026-05-09T03:21:04Z",
             "outcomes": [
               {
                 "name": "Cleveland Cavaliers",
@@ -807,11 +464,11 @@
       {
         "key": "betonlineag",
         "title": "BetOnline.ag",
-        "last_update": "2026-05-08T22:56:26Z",
+        "last_update": "2026-05-09T03:21:32Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-05-08T22:56:26Z",
+            "last_update": "2026-05-09T03:21:32Z",
             "outcomes": [
               {
                 "name": "Cleveland Cavaliers",
@@ -825,7 +482,7 @@
           },
           {
             "key": "spreads",
-            "last_update": "2026-05-08T22:56:26Z",
+            "last_update": "2026-05-09T03:21:32Z",
             "outcomes": [
               {
                 "name": "Cleveland Cavaliers",
@@ -844,11 +501,11 @@
       {
         "key": "betmgm",
         "title": "BetMGM",
-        "last_update": "2026-05-08T22:55:41Z",
+        "last_update": "2026-05-09T03:21:05Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-05-08T22:55:41Z",
+            "last_update": "2026-05-09T03:21:05Z",
             "outcomes": [
               {
                 "name": "Cleveland Cavaliers",
@@ -862,48 +519,11 @@
           },
           {
             "key": "spreads",
-            "last_update": "2026-05-08T22:55:41Z",
+            "last_update": "2026-05-09T03:21:05Z",
             "outcomes": [
               {
                 "name": "Cleveland Cavaliers",
-                "price": 1.98,
-                "point": -4.5
-              },
-              {
-                "name": "Detroit Pistons",
-                "price": 1.85,
-                "point": 4.5
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betrivers",
-        "title": "BetRivers",
-        "last_update": "2026-05-08T22:56:55Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-05-08T22:56:55Z",
-            "outcomes": [
-              {
-                "name": "Cleveland Cavaliers",
-                "price": 1.55
-              },
-              {
-                "name": "Detroit Pistons",
-                "price": 2.45
-              }
-            ]
-          },
-          {
-            "key": "spreads",
-            "last_update": "2026-05-08T22:56:55Z",
-            "outcomes": [
-              {
-                "name": "Cleveland Cavaliers",
-                "price": 1.93,
+                "price": 1.95,
                 "point": -4.5
               },
               {
@@ -916,13 +536,50 @@
         ]
       },
       {
-        "key": "bovada",
-        "title": "Bovada",
-        "last_update": "2026-05-08T22:55:43Z",
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-05-09T03:21:18Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-05-08T22:55:43Z",
+            "last_update": "2026-05-09T03:21:18Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Cavaliers",
+                "price": 1.55
+              },
+              {
+                "name": "Detroit Pistons",
+                "price": 2.48
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-05-09T03:21:18Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Cavaliers",
+                "price": 1.87,
+                "point": -4
+              },
+              {
+                "name": "Detroit Pistons",
+                "price": 1.93,
+                "point": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-05-09T03:16:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-05-09T03:16:49Z",
             "outcomes": [
               {
                 "name": "Cleveland Cavaliers",
@@ -936,7 +593,7 @@
           },
           {
             "key": "spreads",
-            "last_update": "2026-05-08T22:55:43Z",
+            "last_update": "2026-05-09T03:16:49Z",
             "outcomes": [
               {
                 "name": "Cleveland Cavaliers",
@@ -955,11 +612,11 @@
       {
         "key": "mybookieag",
         "title": "MyBookie.ag",
-        "last_update": "2026-05-08T22:55:10Z",
+        "last_update": "2026-05-09T03:21:17Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-05-08T22:55:10Z",
+            "last_update": "2026-05-09T03:21:17Z",
             "outcomes": [
               {
                 "name": "Cleveland Cavaliers",
@@ -973,7 +630,7 @@
           },
           {
             "key": "spreads",
-            "last_update": "2026-05-08T22:55:10Z",
+            "last_update": "2026-05-09T03:21:17Z",
             "outcomes": [
               {
                 "name": "Cleveland Cavaliers",
@@ -992,11 +649,11 @@
       {
         "key": "betus",
         "title": "BetUS",
-        "last_update": "2026-05-08T22:56:26Z",
+        "last_update": "2026-05-09T03:21:32Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-05-08T22:56:26Z",
+            "last_update": "2026-05-09T03:21:32Z",
             "outcomes": [
               {
                 "name": "Cleveland Cavaliers",
@@ -1010,7 +667,7 @@
           },
           {
             "key": "spreads",
-            "last_update": "2026-05-08T22:56:26Z",
+            "last_update": "2026-05-09T03:21:32Z",
             "outcomes": [
               {
                 "name": "Cleveland Cavaliers",
@@ -1039,15 +696,15 @@
       {
         "key": "fanduel",
         "title": "FanDuel",
-        "last_update": "2026-05-08T22:56:55Z",
+        "last_update": "2026-05-09T03:21:31Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-05-08T22:56:55Z",
+            "last_update": "2026-05-09T03:21:31Z",
             "outcomes": [
               {
                 "name": "Los Angeles Lakers",
-                "price": 3.95
+                "price": 4
               },
               {
                 "name": "Oklahoma City Thunder",
@@ -1057,7 +714,7 @@
           },
           {
             "key": "spreads",
-            "last_update": "2026-05-08T22:56:55Z",
+            "last_update": "2026-05-09T03:21:31Z",
             "outcomes": [
               {
                 "name": "Los Angeles Lakers",
@@ -1076,11 +733,11 @@
       {
         "key": "draftkings",
         "title": "DraftKings",
-        "last_update": "2026-05-08T22:55:41Z",
+        "last_update": "2026-05-09T03:21:17Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-05-08T22:55:41Z",
+            "last_update": "2026-05-09T03:21:17Z",
             "outcomes": [
               {
                 "name": "Los Angeles Lakers",
@@ -1094,7 +751,7 @@
           },
           {
             "key": "spreads",
-            "last_update": "2026-05-08T22:55:41Z",
+            "last_update": "2026-05-09T03:21:17Z",
             "outcomes": [
               {
                 "name": "Los Angeles Lakers",
@@ -1113,11 +770,11 @@
       {
         "key": "betmgm",
         "title": "BetMGM",
-        "last_update": "2026-05-08T22:55:41Z",
+        "last_update": "2026-05-09T03:21:05Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-05-08T22:55:41Z",
+            "last_update": "2026-05-09T03:21:05Z",
             "outcomes": [
               {
                 "name": "Los Angeles Lakers",
@@ -1131,7 +788,7 @@
           },
           {
             "key": "spreads",
-            "last_update": "2026-05-08T22:55:41Z",
+            "last_update": "2026-05-09T03:21:05Z",
             "outcomes": [
               {
                 "name": "Los Angeles Lakers",
@@ -1150,35 +807,35 @@
       {
         "key": "betrivers",
         "title": "BetRivers",
-        "last_update": "2026-05-08T22:56:55Z",
+        "last_update": "2026-05-09T03:21:18Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-05-08T22:56:55Z",
+            "last_update": "2026-05-09T03:21:18Z",
             "outcomes": [
               {
                 "name": "Los Angeles Lakers",
-                "price": 4
+                "price": 3.9
               },
               {
                 "name": "Oklahoma City Thunder",
-                "price": 1.25
+                "price": 1.26
               }
             ]
           },
           {
             "key": "spreads",
-            "last_update": "2026-05-08T22:56:55Z",
+            "last_update": "2026-05-09T03:21:18Z",
             "outcomes": [
               {
                 "name": "Los Angeles Lakers",
-                "price": 1.87,
-                "point": 9
+                "price": 1.93,
+                "point": 8.5
               },
               {
                 "name": "Oklahoma City Thunder",
-                "price": 1.93,
-                "point": -9
+                "price": 1.87,
+                "point": -8.5
               }
             ]
           }
@@ -1187,11 +844,11 @@
       {
         "key": "mybookieag",
         "title": "MyBookie.ag",
-        "last_update": "2026-05-08T22:55:10Z",
+        "last_update": "2026-05-09T03:21:17Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-05-08T22:55:10Z",
+            "last_update": "2026-05-09T03:21:17Z",
             "outcomes": [
               {
                 "name": "Los Angeles Lakers",
@@ -1205,7 +862,7 @@
           },
           {
             "key": "spreads",
-            "last_update": "2026-05-08T22:55:10Z",
+            "last_update": "2026-05-09T03:21:17Z",
             "outcomes": [
               {
                 "name": "Los Angeles Lakers",
@@ -1224,11 +881,11 @@
       {
         "key": "betonlineag",
         "title": "BetOnline.ag",
-        "last_update": "2026-05-08T22:56:26Z",
+        "last_update": "2026-05-09T03:21:32Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-05-08T22:56:26Z",
+            "last_update": "2026-05-09T03:21:32Z",
             "outcomes": [
               {
                 "name": "Los Angeles Lakers",
@@ -1242,7 +899,7 @@
           },
           {
             "key": "spreads",
-            "last_update": "2026-05-08T22:56:26Z",
+            "last_update": "2026-05-09T03:21:32Z",
             "outcomes": [
               {
                 "name": "Los Angeles Lakers",
@@ -1261,11 +918,11 @@
       {
         "key": "lowvig",
         "title": "LowVig.ag",
-        "last_update": "2026-05-08T22:56:26Z",
+        "last_update": "2026-05-09T03:21:04Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-05-08T22:56:26Z",
+            "last_update": "2026-05-09T03:21:04Z",
             "outcomes": [
               {
                 "name": "Los Angeles Lakers",
@@ -1279,7 +936,7 @@
           },
           {
             "key": "spreads",
-            "last_update": "2026-05-08T22:56:26Z",
+            "last_update": "2026-05-09T03:21:04Z",
             "outcomes": [
               {
                 "name": "Los Angeles Lakers",
@@ -1298,11 +955,11 @@
       {
         "key": "bovada",
         "title": "Bovada",
-        "last_update": "2026-05-08T22:55:43Z",
+        "last_update": "2026-05-09T03:16:49Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-05-08T22:55:43Z",
+            "last_update": "2026-05-09T03:16:49Z",
             "outcomes": [
               {
                 "name": "Los Angeles Lakers",
@@ -1316,7 +973,7 @@
           },
           {
             "key": "spreads",
-            "last_update": "2026-05-08T22:55:43Z",
+            "last_update": "2026-05-09T03:16:49Z",
             "outcomes": [
               {
                 "name": "Los Angeles Lakers",
@@ -1327,6 +984,349 @@
                 "name": "Oklahoma City Thunder",
                 "price": 1.91,
                 "point": -8.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2026-05-09T03:21:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-05-09T03:21:32Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Lakers",
+                "price": 4.05
+              },
+              {
+                "name": "Oklahoma City Thunder",
+                "price": 1.26
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-05-09T03:21:32Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Lakers",
+                "price": 1.91,
+                "point": 8.5
+              },
+              {
+                "name": "Oklahoma City Thunder",
+                "price": 1.91,
+                "point": -8.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "878243c543236baba132ad43ae333aae",
+    "sport_key": "basketball_nba",
+    "sport_title": "NBA",
+    "commence_time": "2026-05-10T19:40:00Z",
+    "home_team": "Philadelphia 76ers",
+    "away_team": "New York Knicks",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-05-09T03:21:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-05-09T03:21:31Z",
+            "outcomes": [
+              {
+                "name": "New York Knicks",
+                "price": 1.85
+              },
+              {
+                "name": "Philadelphia 76ers",
+                "price": 2
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-05-09T03:21:31Z",
+            "outcomes": [
+              {
+                "name": "New York Knicks",
+                "price": 1.94,
+                "point": -1.5
+              },
+              {
+                "name": "Philadelphia 76ers",
+                "price": 1.88,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-05-09T03:21:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-05-09T03:21:17Z",
+            "outcomes": [
+              {
+                "name": "New York Knicks",
+                "price": 1.87
+              },
+              {
+                "name": "Philadelphia 76ers",
+                "price": 1.95
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-05-09T03:21:17Z",
+            "outcomes": [
+              {
+                "name": "New York Knicks",
+                "price": 1.95,
+                "point": -1.5
+              },
+              {
+                "name": "Philadelphia 76ers",
+                "price": 1.87,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-05-09T03:21:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-05-09T03:21:18Z",
+            "outcomes": [
+              {
+                "name": "New York Knicks",
+                "price": 1.82
+              },
+              {
+                "name": "Philadelphia 76ers",
+                "price": 1.97
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-05-09T03:21:18Z",
+            "outcomes": [
+              {
+                "name": "New York Knicks",
+                "price": 1.91,
+                "point": -1.5
+              },
+              {
+                "name": "Philadelphia 76ers",
+                "price": 1.88,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-05-09T03:21:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-05-09T03:21:05Z",
+            "outcomes": [
+              {
+                "name": "New York Knicks",
+                "price": 1.85
+              },
+              {
+                "name": "Philadelphia 76ers",
+                "price": 1.98
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-05-09T03:21:05Z",
+            "outcomes": [
+              {
+                "name": "New York Knicks",
+                "price": 1.98,
+                "point": -1.5
+              },
+              {
+                "name": "Philadelphia 76ers",
+                "price": 1.85,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2026-05-09T03:21:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-05-09T03:21:04Z",
+            "outcomes": [
+              {
+                "name": "New York Knicks",
+                "price": 1.86
+              },
+              {
+                "name": "Philadelphia 76ers",
+                "price": 2
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-05-09T03:21:04Z",
+            "outcomes": [
+              {
+                "name": "New York Knicks",
+                "price": 1.9,
+                "point": -1
+              },
+              {
+                "name": "Philadelphia 76ers",
+                "price": 1.99,
+                "point": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2026-05-09T03:21:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-05-09T03:21:32Z",
+            "outcomes": [
+              {
+                "name": "New York Knicks",
+                "price": 1.85
+              },
+              {
+                "name": "Philadelphia 76ers",
+                "price": 1.98
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-05-09T03:21:32Z",
+            "outcomes": [
+              {
+                "name": "New York Knicks",
+                "price": 1.88,
+                "point": -1
+              },
+              {
+                "name": "Philadelphia 76ers",
+                "price": 1.93,
+                "point": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-05-09T03:21:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-05-09T03:21:17Z",
+            "outcomes": [
+              {
+                "name": "New York Knicks",
+                "price": 1.86
+              },
+              {
+                "name": "Philadelphia 76ers",
+                "price": 1.95
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-05-09T03:21:17Z",
+            "outcomes": [
+              {
+                "name": "New York Knicks",
+                "price": 1.91,
+                "point": -1
+              },
+              {
+                "name": "Philadelphia 76ers",
+                "price": 1.91,
+                "point": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-05-09T03:16:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-05-09T03:16:49Z",
+            "outcomes": [
+              {
+                "name": "New York Knicks",
+                "price": 1.8
+              },
+              {
+                "name": "Philadelphia 76ers",
+                "price": 2.05
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-05-09T03:16:49Z",
+            "outcomes": [
+              {
+                "name": "New York Knicks",
+                "price": 1.95,
+                "point": -2
+              },
+              {
+                "name": "Philadelphia 76ers",
+                "price": 1.87,
+                "point": 2
               }
             ]
           }
